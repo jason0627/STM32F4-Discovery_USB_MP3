@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Show_03.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Show_03 -TC:\CooCox\CoIDE\configuration\ProgramData\Show_03/arm-gcc-link.ld -g">
+      <target file="Show_03.elf" lastModified="140a62d8904">
+         <source file="..\obj\usb_core.o" lastModified="140a5db605c"/>
+         <source file="..\obj\dqchan.o" lastModified="140a5db6126"/>
+         <source file="..\obj\scalfact.o" lastModified="140a5db624f"/>
+         <source file="..\obj\stm32_ub_i2c1.o" lastModified="140a5db6329"/>
+         <source file="..\obj\stm32_ub_usb_msc_host.o" lastModified="140a5db6387"/>
+         <source file="..\obj\bitstream.o" lastModified="140a5db6606"/>
+         <source file="..\obj\dequant.o" lastModified="140a5db6674"/>
+         <source file="..\obj\hufftabs.o" lastModified="140a5db66d1"/>
+         <source file="..\obj\imdct.o" lastModified="140a5db6ac7"/>
+         <source file="..\obj\usbh_hcs.o" lastModified="140a5db6b34"/>
+         <source file="..\obj\usbh_stdreq.o" lastModified="140a5db6bc1"/>
+         <source file="..\obj\mp3tabs.o" lastModified="140a5db6c0f"/>
+         <source file="..\obj\subband.o" lastModified="140a5db6c6c"/>
+         <source file="..\obj\diskio.o" lastModified="140a5db6ce9"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="140a5db6d18"/>
+         <source file="..\obj\mp3dec.o" lastModified="140a5db6e6f"/>
+         <source file="..\obj\main.o" lastModified="140a62d85ba"/>
+         <source file="..\obj\stm32_ub_fatfs.o" lastModified="140a5db6f59"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="140a5db7014"/>
+         <source file="..\obj\printf.o" lastModified="140a5db71c9"/>
+         <source file="..\obj\usbh_msc_core.o" lastModified="140a5db7256"/>
+         <source file="..\obj\stm32_ub_button.o" lastModified="140a5db72a4"/>
+         <source file="..\obj\cs43l22_lolevel_mp3.o" lastModified="140a5db736e"/>
+         <source file="..\obj\usbh_core.o" lastModified="140a5db742a"/>
+         <source file="..\obj\stm32_ub_sdcard.o" lastModified="140a5db7478"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="140a5db74f4"/>
+         <source file="..\obj\stm32_ub_usbdisk.o" lastModified="140a5db7571"/>
+         <source file="..\obj\stm32_ub_cs43l22_mp3_fatfs.o" lastModified="140a622f6ca"/>
+         <source file="..\obj\usbh_msc_scsi.o" lastModified="140a5db77f1"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="140a5db784e"/>
+         <source file="..\obj\syscalls.o" lastModified="140a5db789c"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="140a5db7929"/>
+         <source file="..\obj\usbh_usr.o" lastModified="140a5db7996"/>
+         <source file="..\obj\usb_bsp.o" lastModified="140a5db7a13"/>
+         <source file="..\obj\stproc.o" lastModified="140a5db7b1c"/>
+         <source file="..\obj\huffman.o" lastModified="140a5db7c25"/>
+         <source file="..\obj\trigtabs_fixpt.o" lastModified="140a5db7c73"/>
+         <source file="..\obj\buffers.o" lastModified="140a5db7cd1"/>
+         <source file="..\obj\stm32_ub_atadrive.o" lastModified="140a5db7d1f"/>
+         <source file="..\obj\ff.o" lastModified="140a5db821e"/>
+         <source file="..\obj\usb_hcd.o" lastModified="140a5db827c"/>
+         <source file="..\obj\usbh_msc_bot.o" lastModified="140a5db8318"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="140a5db83b4"/>
+         <source file="..\obj\dct32.o" lastModified="140a5db84fb"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="140a5db85a7"/>
+         <source file="..\obj\usbh_ioreq.o" lastModified="140a5db8624"/>
+         <source file="..\obj\stm32_ub_mp3Player.o" lastModified="140a62d8675"/>
+         <source file="..\obj\misc.o" lastModified="140a5db86fe"/>
+         <source file="..\obj\polyphase.o" lastModified="140a5db8855"/>
+         <source file="..\obj\usb_hcd_int.o" lastModified="140a5db88f1"/>
+      </target>
+   </processor>
+</history>

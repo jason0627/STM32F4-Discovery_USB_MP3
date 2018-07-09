@@ -1,0 +1,7 @@
+usb_bsp.c:21:6:USB_OTG_BSP_Init	24	static
+usb_bsp.c:54:6:USB_OTG_BSP_EnableInterrupt	16	static
+usb_bsp.c:69:6:USB_OTG_BSP_DriveVBUS	0	static
+usb_bsp.c:85:7:USB_OTG_BSP_ConfigVBUS	24	static
+usb_bsp.c:108:6:USB_OTG_BSP_uDelay	8	static
+usb_bsp.c:124:6:USB_OTG_BSP_mDelay	8	static
+usb_bsp.c:131:6:OTG_FS_IRQHandler	0	static

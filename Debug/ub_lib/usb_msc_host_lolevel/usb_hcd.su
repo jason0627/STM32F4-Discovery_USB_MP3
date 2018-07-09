@@ -1,0 +1,10 @@
+usb_hcd.c:18:10:HCD_Init	16	static
+usb_hcd.c:48:10:HCD_GetCurrentSpeed	0	static
+usb_hcd.c:57:10:HCD_ResetPort	8	static
+usb_hcd.c:71:10:HCD_IsDeviceConnected	0	static
+usb_hcd.c:77:10:HCD_GetCurrentFrame	0	static
+usb_hcd.c:83:11:HCD_GetURB_State	0	static
+usb_hcd.c:89:10:HCD_GetXferCnt	0	static
+usb_hcd.c:97:11:HCD_GetHCState	0	static
+usb_hcd.c:103:10:HCD_HC_Init	8	static
+usb_hcd.c:109:10:HCD_SubmitRequest	8	static

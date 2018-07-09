@@ -1,0 +1,14 @@
+stm32f4xx_gpio.c:120:6:GPIO_DeInit	8	static
+stm32f4xx_gpio.c:182:6:GPIO_Init	32	static
+stm32f4xx_gpio.c:234:6:GPIO_StructInit	0	static
+stm32f4xx_gpio.c:255:6:GPIO_PinLockConfig	8	static
+stm32f4xx_gpio.c:299:9:GPIO_ReadInputDataBit	0	static
+stm32f4xx_gpio.c:323:10:GPIO_ReadInputData	0	static
+stm32f4xx_gpio.c:338:9:GPIO_ReadOutputDataBit	0	static
+stm32f4xx_gpio.c:362:10:GPIO_ReadOutputData	0	static
+stm32f4xx_gpio.c:380:6:GPIO_SetBits	0	static
+stm32f4xx_gpio.c:399:6:GPIO_ResetBits	0	static
+stm32f4xx_gpio.c:419:6:GPIO_WriteBit	0	static
+stm32f4xx_gpio.c:442:6:GPIO_Write	0	static
+stm32f4xx_gpio.c:456:6:GPIO_ToggleBits	0	static
+stm32f4xx_gpio.c:529:6:GPIO_PinAFConfig	4	static

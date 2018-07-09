@@ -1,0 +1,2479 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memcpy-stub.o)
+                              cmsis_boot\startup\startup_stm32f4xx.o (memcpy)
+c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memmove.o)
+                              ub_lib\helix_mp3\mp3dec.o (memmove)
+c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+                              stdio\printf.o (memset)
+c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strcmp.o)
+                              ub_lib\stm32_ub_mp3Player.o (strcmp)
+c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+                              ub_lib\stm32_ub_mp3Player.o (strrchr)
+c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strchr.o)
+                              c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o) (strchr)
+
+Allocating common symbols
+Common symbol       size              file
+
+akt_mp3_nr          0x4               ub_lib\stm32_ub_mp3Player.o
+HSEStartUpStatus    0x1               ub_lib\usb_msc_host_lolevel\usb_bsp.o
+USBH_MSC_CSWData    0x10              ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+MSC_Machine         0x4a              ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_DataInBuffer   0x200             ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+USBH_MSC_Param      0x10              ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+USBH_MSC_BOTXferParam
+                    0x10              ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+USB_MSC_HOST_STATUS
+                    0x1               main.o
+my_mp3              0x4044            ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+USB_OTG_Core        0x4b0             ub_lib\stm32_ub_usb_msc_host.o
+myMP3File           0x224             ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+USBH_DataOutBuffer  0x200             ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+mp3_buf             0x4000            ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+MSC_Setup           0x8               ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_MSC_CBWData    0x20              ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+USB_Host            0x84              ub_lib\stm32_ub_usb_msc_host.o
+DMA_InitStructure   0x3c              ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00020000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+CCMRAM           0x10000000         0x00010000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD cmsis_boot\startup\startup_stm32f4xx.o
+LOAD cmsis_boot\system_stm32f4xx.o
+LOAD cmsis_lib\source\misc.o
+LOAD cmsis_lib\source\stm32f4xx_dma.o
+LOAD cmsis_lib\source\stm32f4xx_gpio.o
+LOAD cmsis_lib\source\stm32f4xx_i2c.o
+LOAD cmsis_lib\source\stm32f4xx_rcc.o
+LOAD cmsis_lib\source\stm32f4xx_spi.o
+LOAD main.o
+LOAD stdio\printf.o
+LOAD syscalls\syscalls.o
+LOAD ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+LOAD ub_lib\fatfs\diskio.o
+LOAD ub_lib\fatfs\ff.o
+LOAD ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+LOAD ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+LOAD ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+LOAD ub_lib\helix_mp3\mp3dec.o
+LOAD ub_lib\helix_mp3\mp3tabs.o
+LOAD ub_lib\helix_mp3\real\bitstream.o
+LOAD ub_lib\helix_mp3\real\buffers.o
+LOAD ub_lib\helix_mp3\real\dct32.o
+LOAD ub_lib\helix_mp3\real\dequant.o
+LOAD ub_lib\helix_mp3\real\dqchan.o
+LOAD ub_lib\helix_mp3\real\huffman.o
+LOAD ub_lib\helix_mp3\real\hufftabs.o
+LOAD ub_lib\helix_mp3\real\imdct.o
+LOAD ub_lib\helix_mp3\real\polyphase.o
+LOAD ub_lib\helix_mp3\real\scalfact.o
+LOAD ub_lib\helix_mp3\real\stproc.o
+LOAD ub_lib\helix_mp3\real\subband.o
+LOAD ub_lib\helix_mp3\real\trigtabs_fixpt.o
+LOAD ub_lib\stm32_ub_button.o
+LOAD ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+LOAD ub_lib\stm32_ub_fatfs.o
+LOAD ub_lib\stm32_ub_i2c1.o
+LOAD ub_lib\stm32_ub_mp3Player.o
+LOAD ub_lib\stm32_ub_usb_msc_host.o
+LOAD ub_lib\usb_msc_host_lolevel\usb_bsp.o
+LOAD ub_lib\usb_msc_host_lolevel\usb_core.o
+LOAD ub_lib\usb_msc_host_lolevel\usb_hcd.o
+LOAD ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+LOAD ub_lib\usb_msc_host_lolevel\usbh_core.o
+LOAD ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+LOAD ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+LOAD ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+LOAD ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+LOAD ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+LOAD ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+LOAD ub_lib\usb_msc_host_lolevel\usbh_usr.o
+                0x00001000                malloc_getpagesize_P = 0x1000
+START GROUP
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libm.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libstdc++_nano.a
+LOAD c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libsupc++_nano.a
+END GROUP
+                0x20020000                _estack = 0x20020000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x188
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 cmsis_boot\startup\startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+                0x08000188                . = ALIGN (0x4)
+
+.text           0x08000188    0x144c8
+                0x08000188                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000188       0x4c cmsis_boot\startup\startup_stm32f4xx.o
+                0x08000188                RTC_Alarm_IRQHandler
+                0x08000188                HASH_RNG_IRQHandler
+                0x08000188                EXTI2_IRQHandler
+                0x08000188                TIM8_CC_IRQHandler
+                0x08000188                DebugMon_Handler
+                0x08000188                TIM1_CC_IRQHandler
+                0x08000188                DMA2_Stream5_IRQHandler
+                0x08000188                HardFault_Handler
+                0x08000188                DMA1_Stream5_IRQHandler
+                0x08000188                SysTick_Handler
+                0x08000188                PVD_IRQHandler
+                0x08000188                SDIO_IRQHandler
+                0x08000188                TAMP_STAMP_IRQHandler
+                0x08000188                PendSV_Handler
+                0x08000188                NMI_Handler
+                0x08000188                CAN2_RX1_IRQHandler
+                0x08000188                EXTI3_IRQHandler
+                0x08000188                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000188                TIM1_UP_TIM10_IRQHandler
+                0x08000188                TIM8_UP_TIM13_IRQHandler
+                0x08000188                I2C3_ER_IRQHandler
+                0x08000188                EXTI0_IRQHandler
+                0x08000188                I2C2_EV_IRQHandler
+                0x08000188                DMA1_Stream2_IRQHandler
+                0x08000188                CAN1_RX0_IRQHandler
+                0x08000188                FPU_IRQHandler
+                0x08000188                OTG_HS_WKUP_IRQHandler
+                0x08000188                UsageFault_Handler
+                0x08000188                CAN2_SCE_IRQHandler
+                0x08000188                DMA2_Stream2_IRQHandler
+                0x08000188                SPI1_IRQHandler
+                0x08000188                TIM6_DAC_IRQHandler
+                0x08000188                TIM1_BRK_TIM9_IRQHandler
+                0x08000188                DCMI_IRQHandler
+                0x08000188                CAN2_RX0_IRQHandler
+                0x08000188                DMA2_Stream3_IRQHandler
+                0x08000188                USART6_IRQHandler
+                0x08000188                USART3_IRQHandler
+                0x08000188                CRYP_IRQHandler
+                0x08000188                DMA2_Stream6_IRQHandler
+                0x08000188                CAN1_RX1_IRQHandler
+                0x08000188                UART5_IRQHandler
+                0x08000188                DMA2_Stream0_IRQHandler
+                0x08000188                TIM4_IRQHandler
+                0x08000188                I2C1_EV_IRQHandler
+                0x08000188                DMA1_Stream6_IRQHandler
+                0x08000188                DMA1_Stream1_IRQHandler
+                0x08000188                UART4_IRQHandler
+                0x08000188                TIM3_IRQHandler
+                0x08000188                RCC_IRQHandler
+                0x08000188                TIM8_BRK_TIM12_IRQHandler
+                0x08000188                EXTI15_10_IRQHandler
+                0x08000188                ADC_IRQHandler
+                0x08000188                I2C1_ER_IRQHandler
+                0x08000188                TIM7_IRQHandler
+                0x08000188                CAN2_TX_IRQHandler
+                0x08000188                TIM5_IRQHandler
+                0x08000188                DMA2_Stream7_IRQHandler
+                0x08000188                I2C3_EV_IRQHandler
+                0x08000188                EXTI9_5_IRQHandler
+                0x08000188                RTC_WKUP_IRQHandler
+                0x08000188                ETH_WKUP_IRQHandler
+                0x08000188                SPI2_IRQHandler
+                0x08000188                OTG_HS_EP1_IN_IRQHandler
+                0x08000188                MemManage_Handler
+                0x08000188                DMA1_Stream0_IRQHandler
+                0x08000188                CAN1_TX_IRQHandler
+                0x08000188                SVC_Handler
+                0x08000188                EXTI4_IRQHandler
+                0x08000188                FSMC_IRQHandler
+                0x08000188                ETH_IRQHandler
+                0x08000188                OTG_HS_EP1_OUT_IRQHandler
+                0x08000188                WWDG_IRQHandler
+                0x08000188                TIM2_IRQHandler
+                0x08000188                OTG_FS_WKUP_IRQHandler
+                0x08000188                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000188                OTG_HS_IRQHandler
+                0x08000188                EXTI1_IRQHandler
+                0x08000188                USART2_IRQHandler
+                0x08000188                I2C2_ER_IRQHandler
+                0x08000188                DMA2_Stream1_IRQHandler
+                0x08000188                CAN1_SCE_IRQHandler
+                0x08000188                FLASH_IRQHandler
+                0x08000188                DMA2_Stream4_IRQHandler
+                0x08000188                BusFault_Handler
+                0x08000188                USART1_IRQHandler
+                0x08000188                SPI3_IRQHandler
+                0x08000188                DMA1_Stream4_IRQHandler
+                0x08000188                DMA1_Stream3_IRQHandler
+                0x0800018c                Reset_Handler
+                0x0800018c                Default_Reset_Handler
+ .text          0x080001d4      0x158 cmsis_boot\system_stm32f4xx.o
+                0x080001d4                SystemInit
+                0x080002c4                SystemCoreClockUpdate
+ .text          0x0800032c       0xc4 cmsis_lib\source\misc.o
+                0x0800032c                NVIC_PriorityGroupConfig
+                0x08000340                NVIC_Init
+                0x080003a8                NVIC_SetVectorTable
+                0x080003bc                NVIC_SystemLPConfig
+                0x080003d8                SysTick_CLKSourceConfig
+ .text          0x080003f0      0x37c cmsis_lib\source\stm32f4xx_dma.o
+                0x080003f0                DMA_DeInit
+                0x08000520                DMA_Init
+                0x08000578                DMA_StructInit
+                0x0800059c                DMA_Cmd
+                0x080005b0                DMA_PeriphIncOffsetSizeConfig
+                0x080005c4                DMA_FlowControllerConfig
+                0x080005d8                DMA_SetCurrDataCounter
+                0x080005dc                DMA_GetCurrDataCounter
+                0x080005e4                DMA_DoubleBufferModeConfig
+                0x080005fc                DMA_DoubleBufferModeCmd
+                0x08000610                DMA_MemoryTargetConfig
+                0x0800061c                DMA_GetCurrentMemoryTarget
+                0x08000624                DMA_GetCmdStatus
+                0x0800062c                DMA_GetFIFOStatus
+                0x08000634                DMA_GetFlagStatus
+                0x08000670                DMA_ClearFlag
+                0x080006a4                DMA_ITConfig
+                0x080006e4                DMA_GetITStatus
+                0x08000738                DMA_ClearITPendingBit
+ .text          0x0800076c      0x264 cmsis_lib\source\stm32f4xx_gpio.o
+                0x0800076c                GPIO_DeInit
+                0x08000884                GPIO_Init
+                0x0800092c                GPIO_StructInit
+                0x08000938                GPIO_PinLockConfig
+                0x0800095c                GPIO_ReadInputDataBit
+                0x08000968                GPIO_ReadInputData
+                0x08000970                GPIO_ReadOutputDataBit
+                0x0800097c                GPIO_ReadOutputData
+                0x08000984                GPIO_SetBits
+                0x08000988                GPIO_ResetBits
+                0x0800098c                GPIO_WriteBit
+                0x08000998                GPIO_Write
+                0x0800099c                GPIO_ToggleBits
+                0x080009a4                GPIO_PinAFConfig
+ .text          0x080009d0      0x45c cmsis_lib\source\stm32f4xx_i2c.o
+                0x080009d0                I2C_DeInit
+                0x08000a3c                I2C_Init
+                0x08000b20                I2C_StructInit
+                0x08000b44                I2C_Cmd
+                0x08000b60                I2C_GenerateSTART
+                0x08000b7c                I2C_GenerateSTOP
+                0x08000b98                I2C_Send7bitAddress
+                0x08000bb0                I2C_AcknowledgeConfig
+                0x08000bcc                I2C_OwnAddress2Config
+                0x08000be0                I2C_DualAddressCmd
+                0x08000bfc                I2C_GeneralCallCmd
+                0x08000c18                I2C_SoftwareResetCmd
+                0x08000c34                I2C_StretchClockCmd
+                0x08000c50                I2C_FastModeDutyCycleConfig
+                0x08000c70                I2C_NACKPositionConfig
+                0x08000c90                I2C_SMBusAlertConfig
+                0x08000cb0                I2C_ARPCmd
+                0x08000ccc                I2C_SendData
+                0x08000cd0                I2C_ReceiveData
+                0x08000cd8                I2C_TransmitPEC
+                0x08000cf4                I2C_PECPositionConfig
+                0x08000d14                I2C_CalculatePEC
+                0x08000d30                I2C_GetPEC
+                0x08000d38                I2C_DMACmd
+                0x08000d54                I2C_DMALastTransferCmd
+                0x08000d70                I2C_ReadRegister
+                0x08000d88                I2C_ITConfig
+                0x08000d9c                I2C_CheckEvent
+                0x08000db8                I2C_GetLastEvent
+                0x08000dc8                I2C_GetFlagStatus
+                0x08000e00                I2C_ClearFlag
+                0x08000e08                I2C_GetITStatus
+                0x08000e24                I2C_ClearITPendingBit
+ .text          0x08000e2c      0x470 cmsis_lib\source\stm32f4xx_rcc.o
+                0x08000e2c                RCC_DeInit
+                0x08000e60                RCC_HSEConfig
+                0x08000e70                RCC_WaitForHSEStartUp
+                0x08000ea4                RCC_AdjustHSICalibrationValue
+                0x08000eb8                RCC_HSICmd
+                0x08000ec4                RCC_LSEConfig
+                0x08000ee4                RCC_LSICmd
+                0x08000ef0                RCC_PLLConfig
+                0x08000f14                RCC_PLLCmd
+                0x08000f20                RCC_PLLI2SConfig
+                0x08000f34                RCC_PLLI2SCmd
+                0x08000f40                RCC_ClockSecuritySystemCmd
+                0x08000f4c                RCC_MCO1Config
+                0x08000f60                RCC_MCO2Config
+                0x08000f74                RCC_SYSCLKConfig
+                0x08000f88                RCC_GetSYSCLKSource
+                0x08000f98                RCC_HCLKConfig
+                0x08000fac                RCC_PCLK1Config
+                0x08000fc0                RCC_PCLK2Config
+                0x08000fd4                RCC_GetClocksFreq
+                0x08001064                RCC_RTCCLKConfig
+                0x08001094                RCC_RTCCLKCmd
+                0x080010a0                RCC_BackupResetCmd
+                0x080010ac                RCC_I2SCLKConfig
+                0x080010b8                RCC_AHB1PeriphClockCmd
+                0x080010d0                RCC_AHB2PeriphClockCmd
+                0x080010e8                RCC_AHB3PeriphClockCmd
+                0x08001100                RCC_APB1PeriphClockCmd
+                0x08001118                RCC_APB2PeriphClockCmd
+                0x08001130                RCC_AHB1PeriphResetCmd
+                0x08001148                RCC_AHB2PeriphResetCmd
+                0x08001160                RCC_AHB3PeriphResetCmd
+                0x08001178                RCC_APB1PeriphResetCmd
+                0x08001190                RCC_APB2PeriphResetCmd
+                0x080011a8                RCC_AHB1PeriphClockLPModeCmd
+                0x080011c0                RCC_AHB2PeriphClockLPModeCmd
+                0x080011d8                RCC_AHB3PeriphClockLPModeCmd
+                0x080011f0                RCC_APB1PeriphClockLPModeCmd
+                0x08001208                RCC_APB2PeriphClockLPModeCmd
+                0x08001220                RCC_ITConfig
+                0x08001238                RCC_GetFlagStatus
+                0x0800126c                RCC_ClearFlag
+                0x0800127c                RCC_GetITStatus
+                0x08001290                RCC_ClearITPendingBit
+ .text          0x0800129c      0x38c cmsis_lib\source\stm32f4xx_spi.o
+                0x0800129c                SPI_I2S_DeInit
+                0x08001308                SPI_Init
+                0x08001348                I2S_Init
+                0x08001420                SPI_StructInit
+                0x08001438                I2S_StructInit
+                0x08001448                SPI_Cmd
+                0x08001464                I2S_Cmd
+                0x08001480                SPI_DataSizeConfig
+                0x08001498                SPI_BiDirectionalLineConfig
+                0x080014b8                SPI_NSSInternalSoftwareConfig
+                0x080014d8                SPI_SSOutputCmd
+                0x080014f4                SPI_TIModeCmd
+                0x08001510                I2S_FullDuplexConfig
+                0x08001558                SPI_I2S_ReceiveData
+                0x08001560                SPI_I2S_SendData
+                0x08001564                SPI_CalculateCRC
+                0x08001580                SPI_TransmitCRC
+                0x0800158c                SPI_GetCRC
+                0x08001598                SPI_GetCRCPolynomial
+                0x080015a0                SPI_I2S_DMACmd
+                0x080015b4                SPI_I2S_ITConfig
+                0x080015d4                SPI_I2S_GetFlagStatus
+                0x080015e0                SPI_I2S_ClearFlag
+                0x080015e8                SPI_I2S_GetITStatus
+                0x08001614                SPI_I2S_ClearITPendingBit
+ .text          0x08001628        0x0 main.o
+ .text          0x08001628      0xb9c stdio\printf.o
+                0x08001628                PrintChar
+                0x0800162c                PutChar
+                0x08001634                PutString
+                0x08001658                PutUnsignedInt
+                0x080016fc                PutSignedInt
+                0x08001860                PutHexa
+                0x0800190c                vsnprintf
+                0x08001f50                snprintf
+                0x08001f6c                vsprintf
+                0x08001f78                vfprintf
+                0x08001fd8                vprintf
+                0x08002038                fprintf
+                0x080020b0                printf
+                0x08002128                sprintf
+                0x08002148                puts
+                0x0800215c                fputc
+                0x08002178                fputs
+ .text          0x080021c4       0x4c syscalls\syscalls.o
+                0x080021c4                _sbrk
+                0x080021e0                link
+                0x080021e8                _close
+                0x080021f0                _fstat
+                0x080021fc                _isatty
+                0x08002200                _lseek
+                0x08002204                _read
+                0x08002208                _write
+                0x0800220c                abort
+ .text          0x08002210      0x544 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                0x08002210                UB_AUDIO_SetI2SClock
+                0x08002238                EVAL_AUDIO_Init
+                0x08002478                EVAL_AUDIO_Play
+                0x080024b0                EVAL_AUDIO_PauseResume
+                0x08002580                EVAL_AUDIO_Stop
+                0x080025f0                EVAL_AUDIO_StopDMA
+                0x0800260c                EVAL_AUDIO_VolumeCtl
+                0x080026b8                EVAL_IRQ_ENABLE
+                0x080026c8                EVAL_IRQ_DISABLE
+                0x080026d8                EVAL_SET_DMA
+                0x08002750                DMA1_Stream7_IRQHandler
+ .text          0x08002754      0x13c ub_lib\fatfs\diskio.o
+                0x08002754                disk_initialize
+                0x08002788                disk_status
+                0x080027bc                disk_read
+                0x08002800                disk_write
+                0x08002844                get_fattime
+                0x0800284c                disk_ioctl
+ .text          0x08002890     0x5828 ub_lib\fatfs\ff.o
+                0x08004674                clust2sect
+                0x0800468c                get_fat
+                0x08004914                put_fat
+                0x08004be0                f_mount
+                0x08004c00                f_open
+                0x080050cc                f_read
+                0x0800512c                f_write
+                0x0800518c                f_sync
+                0x080052bc                f_close
+                0x080053f4                f_lseek
+                0x0800558c                f_opendir
+                0x080058cc                f_readdir
+                0x08005b08                f_stat
+                0x08005e10                f_getfree
+                0x08005f64                f_truncate
+                0x08006044                f_unlink
+                0x08006598                f_mkdir
+                0x08006920                f_chmod
+                0x08006c60                f_utime
+                0x08006fa0                f_rename
+                0x080074ac                f_gets
+                0x0800752c                f_putc
+                0x080075c8                f_puts
+                0x08007688                f_printf
+ .text          0x080080b8       0x30 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+                0x080080b8                UB_ATADrive_Init
+                0x080080bc                UB_ATADrive_CheckMedia
+                0x080080c0                ATA_disk_initialize
+                0x080080c8                ATA_disk_status
+                0x080080d0                ATA_disk_read
+                0x080080d8                ATA_disk_write
+                0x080080e0                ATA_disk_ioctl
+ .text          0x080080e8       0x30 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+                0x080080e8                UB_SDCard_Init
+                0x080080ec                UB_SDCard_CheckMedia
+                0x080080f0                MMC_disk_initialize
+                0x080080f8                MMC_disk_status
+                0x08008100                MMC_disk_read
+                0x08008108                MMC_disk_write
+                0x08008110                MMC_disk_ioctl
+ .text          0x08008118      0x194 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                0x08008118                UB_USBDisk_Init
+                0x0800811c                UB_USBDrive_CheckMedia
+                0x08008158                USB_disk_initialize
+                0x08008180                USB_disk_status
+                0x080081a8                USB_disk_read
+                0x08008210                USB_disk_write
+                0x08008278                USB_disk_ioctl
+ .text          0x080082ac      0x564 ub_lib\helix_mp3\mp3dec.o
+                0x080082ac                MP3InitDecoder
+                0x080082b0                MP3FreeDecoder
+                0x080082b8                MP3FindSyncWord
+                0x080082e4                MP3GetLastFrameInfo
+                0x0800833c                MP3GetNextFrameInfo
+                0x0800839c                MP3Decode
+ .text          0x08008810        0x0 ub_lib\helix_mp3\mp3tabs.o
+ .text          0x08008810     0x1684 ub_lib\helix_mp3\real\bitstream.o
+                0x08008810                xmp3fixpt_SetBitstreamPointer
+                0x0800881c                xmp3fixpt_GetBits
+                0x080088f0                xmp3fixpt_CalcBitsUsed
+                0x08008900                xmp3fixpt_CheckPadBit
+                0x08008918                xmp3fixpt_UnpackFrameHeader
+                0x08008b08                xmp3fixpt_UnpackSideInfo
+ .text          0x08009e94       0xa0 ub_lib\helix_mp3\real\buffers.o
+                0x08009e94                xmp3fixpt_AllocateBuffers
+                0x08009f30                xmp3fixpt_FreeBuffers
+ .text          0x08009f34      0xa40 ub_lib\helix_mp3\real\dct32.o
+                0x08009f34                xmp3fixpt_FDCT32
+ .text          0x0800a974      0x274 ub_lib\helix_mp3\real\dequant.o
+                0x0800a974                xmp3fixpt_Dequantize
+ .text          0x0800abe8      0x460 ub_lib\helix_mp3\real\dqchan.o
+                0x0800adb4                xmp3fixpt_DequantChannel
+ .text          0x0800b048      0x7a4 ub_lib\helix_mp3\real\huffman.o
+                0x0800b048                xmp3fixpt_DecodeHuffman
+ .text          0x0800b7ec        0x0 ub_lib\helix_mp3\real\hufftabs.o
+ .text          0x0800b7ec     0x26c8 ub_lib\helix_mp3\real\imdct.o
+                0x0800c224                xmp3fixpt_IMDCT
+ .text          0x0800deb4      0x830 ub_lib\helix_mp3\real\polyphase.o
+                0x0800deb4                xmp3fixpt_PolyphaseMono
+                0x0800e194                xmp3fixpt_PolyphaseStereo
+ .text          0x0800e6e4      0x884 ub_lib\helix_mp3\real\scalfact.o
+                0x0800e6e4                xmp3fixpt_UnpackScaleFactors
+ .text          0x0800ef68      0x67c ub_lib\helix_mp3\real\stproc.o
+                0x0800ef68                xmp3fixpt_MidSideProc
+                0x0800efcc                xmp3fixpt_IntensityProcMPEG1
+                0x0800f320                xmp3fixpt_IntensityProcMPEG2
+ .text          0x0800f5e4      0x118 ub_lib\helix_mp3\real\subband.o
+                0x0800f5e4                xmp3fixpt_Subband
+ .text          0x0800f6fc        0x0 ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .text          0x0800f6fc       0x50 ub_lib\stm32_ub_button.o
+                0x0800f6fc                UB_Button_Init
+                0x0800f72c                UB_Button_Read
+ .text          0x0800f74c      0x7a0 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                0x0800f930                UB_CS43L22_InitMP3
+                0x0800f980                UB_CS43L22_PlayMP3Single
+                0x0800fa74                UB_CS43L22_PlayMP3Loop
+                0x0800fb6c                UB_CS43L22_PlayMP3Do
+                0x0800fc38                UB_CS43L22_PauseMP3
+                0x0800fc50                UB_CS43L22_ResumeMP3
+                0x0800fc68                UB_CS43L22_StopMP3
+                0x0800fca8                UB_CS43L22_SetVolumeMP3
+                0x0800fcac                UB_CS43L22_GetMP3Err
+                0x0800fcc0                P_CS43L22_InitMP3
+                0x0800fd04                PlayMP3WithCallback
+                0x0800fd44                SetMP3Buffer
+                0x0800fdb8                TryMP3Buffer
+                0x0800fe2c                StartMP3Buffer
+                0x0800fe78                EVAL_AUDIO_TransferComplete_CallBack
+ .text          0x0800feec      0x1a4 ub_lib\stm32_ub_fatfs.o
+                0x0800feec                UB_Fatfs_Init
+                0x0800ff00                UB_Fatfs_CheckMedia
+                0x0800ff18                UB_Fatfs_Mount
+                0x0800ff54                UB_Fatfs_UnMount
+                0x0800ff68                UB_Fatfs_DelFile
+                0x0800ff78                UB_Fatfs_OpenFile
+                0x0800ffd0                UB_Fatfs_CloseFile
+                0x0800ffe0                UB_Fatfs_WriteString
+                0x08010000                UB_Fatfs_ReadString
+                0x08010028                UB_Fatfs_FileSize
+                0x08010030                UB_Fatfs_ReadBlock
+                0x08010060                UB_Fatfs_WriteBlock
+ .text          0x08010090      0x864 ub_lib\stm32_ub_i2c1.o
+                0x08010090                UB_I2C1_Init
+                0x08010160                UB_I2C1_ReadByte
+                0x08010554                UB_I2C1_WriteByte
+                0x08010824                UB_I2C1_Delay
+                0x08010838                P_I2C1_InitI2C
+                0x08010884                P_I2C1_timeout
+ .text          0x080108f4      0x1ec ub_lib\stm32_ub_mp3Player.o
+                0x080108f4                UB_MP3Player_Init
+                0x0801090c                UB_MP3Player_Stop
+                0x08010914                P_PlayMP3Nr
+                0x080109f4                UB_MP3Player_Start
+                0x08010a18                UB_MP3Player_Do
+                0x08010aa0                P_Check_File_Extension
+ .text          0x08010ae0       0x58 ub_lib\stm32_ub_usb_msc_host.o
+                0x08010ae0                UB_USB_MSC_HOST_Init
+                0x08010b14                UB_USB_MSC_HOST_Do
+ .text          0x08010b38      0x160 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                0x08010b38                USB_OTG_BSP_Init
+                0x08010bb0                USB_OTG_BSP_EnableInterrupt
+                0x08010bd4                USB_OTG_BSP_DriveVBUS
+                0x08010bec                USB_OTG_BSP_ConfigVBUS
+                0x08010c30                USB_OTG_BSP_uDelay
+                0x08010c5c                USB_OTG_BSP_mDelay
+                0x08010c8c                OTG_FS_IRQHandler
+ .text          0x08010c98      0xd94 ub_lib\usb_msc_host_lolevel\usb_core.o
+                0x08010c98                USB_OTG_WritePacket
+                0x08010cc0                USB_OTG_ReadPacket
+                0x08010ce8                USB_OTG_SelectCore
+                0x0801103c                USB_OTG_CoreInit
+                0x080111cc                USB_OTG_EnableGlobalInt
+                0x080111dc                USB_OTG_DisableGlobalInt
+                0x080111ec                USB_OTG_FlushTxFifo
+                0x08011234                USB_OTG_FlushRxFifo
+                0x08011274                USB_OTG_SetCurrentMode
+                0x080112a0                USB_OTG_GetMode
+                0x080112ac                USB_OTG_IsDeviceMode
+                0x080112b8                USB_OTG_IsHostMode
+                0x080112c4                USB_OTG_ReadCoreItr
+                0x080112d0                USB_OTG_ReadOtgItr
+                0x080112d8                USB_OTG_CoreInitHost
+                0x080114b8                USB_OTG_IsEvenFrame
+                0x080114c4                USB_OTG_DriveVbus
+                0x0801151c                USB_OTG_EnableHostInt
+                0x08011558                USB_OTG_InitFSLSPClkSel
+                0x08011564                USB_OTG_ReadHPRT0
+                0x08011570                USB_OTG_ReadHostAllChannels_intr
+                0x08011578                USB_OTG_ResetPort
+                0x080115b4                USB_OTG_HC_Init
+                0x080116b0                USB_OTG_HC_StartXfer
+                0x080117dc                USB_OTG_HC_Halt
+                0x08011814                USB_OTG_HC_DoPing
+                0x08011838                USB_OTG_StopHost
+ .text          0x08011a2c      0x14c ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                0x08011a2c                HCD_Init
+                0x08011b18                HCD_GetCurrentSpeed
+                0x08011b24                HCD_ResetPort
+                0x08011b30                HCD_IsDeviceConnected
+                0x08011b38                HCD_GetCurrentFrame
+                0x08011b40                HCD_GetURB_State
+                0x08011b48                HCD_GetXferCnt
+                0x08011b50                HCD_GetHCState
+                0x08011b58                HCD_HC_Init
+                0x08011b60                HCD_SubmitRequest
+ .text          0x08011b78     0x12ec ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+                0x08011b78                USBH_OTG_ISR_Handler
+ .text          0x08012e64      0x68c ub_lib\usb_msc_host_lolevel\usbh_core.o
+                0x08012e64                USBH_Connect
+                0x08012e74                USBH_Disconnect
+                0x08012e84                USBH_Init
+                0x08012ef8                USBH_DeInit
+                0x08012f28                USBH_ErrorHandle
+                0x08012f54                USBH_HandleControl
+                0x0801311c                USBH_Process
+ .text          0x080134f0      0x140 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+                0x080134f0                USBH_Open_Channel
+                0x08013540                USBH_Modify_Channel
+                0x0801357c                USBH_Alloc_Channel
+                0x08013604                USBH_Free_Channel
+                0x0801361c                USBH_DeAllocate_AllChannel
+ .text          0x08013630      0x1e0 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                0x08013630                USBH_CtlReq
+                0x08013684                USBH_CtlSendSetup
+                0x080136b4                USBH_CtlSendData
+                0x080136fc                USBH_CtlReceiveData
+                0x08013728                USBH_BulkSendData
+                0x0801375c                USBH_BulkReceiveData
+                0x08013790                USBH_InterruptReceiveData
+                0x080137d0                USBH_InterruptSendData
+ .text          0x08013810      0x38c ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                0x08013810                USBH_MSC_Init
+                0x08013850                USBH_MSC_HandleBOTXfer
+                0x08013b00                USBH_MSC_BOT_Abort
+                0x08013b3c                USBH_MSC_DecodeCSW
+ .text          0x08013b9c      0x2a8 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                0x08013e10                USBH_MSC_ErrorHandle
+ .text          0x08013e44      0x388 ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                0x08013e44                USBH_MSC_TestUnitReady
+                0x08013eb0                USBH_MSC_ReadCapacity10
+                0x08013f4c                USBH_MSC_ModeSense6
+                0x08013fd4                USBH_MSC_RequestSense
+                0x0801406c                USBH_MSC_Write10
+                0x08014100                USBH_MSC_Read10
+ .text          0x080141cc      0x2dc ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                0x080141cc                USBH_Get_DevDesc
+                0x08014284                USBH_Get_CfgDesc
+                0x080143ac                USBH_Get_StringDesc
+                0x08014418                USBH_GetDescriptor
+                0x0801444c                USBH_SetAddress
+                0x08014464                USBH_SetCfg
+                0x0801447c                USBH_ClrFeature
+ .text          0x080144a8       0xb4 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+                0x080144a8                USBH_USR_DeviceDisconnected
+                0x080144b4                USBH_USR_DeviceSpeedDetected
+                0x080144c8                USBH_USR_Configuration_DescAvailable
+                0x080144cc                USBH_USR_SerialNum_String
+                0x080144d0                USBH_USR_EnumerationDone
+                0x080144d4                USBH_USR_DeviceNotSupported
+                0x080144e0                USBH_USR_UserInput
+                0x080144e4                USBH_USR_OverCurrentDetected
+                0x080144f0                USBH_USR_DeInit
+                0x080144fc                USBH_USR_MSC_Application
+                0x0801452c                USBH_USR_Manufacturer_String
+                0x08014530                USBH_USR_Product_String
+                0x08014534                USBH_USR_Device_DescAvailable
+                0x08014538                USBH_USR_ResetDevice
+                0x0801453c                USBH_USR_DeviceAddressAssigned
+                0x08014540                USBH_USR_Init
+                0x08014544                USBH_USR_DeviceAttached
+                0x08014550                USBH_USR_UnrecoveredError
+ .text          0x0801455c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0801455c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memmove.o)
+ .text          0x0801455c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .text          0x0801455c       0x14 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strcmp.o)
+                0x0801455c                strcmp
+ .text          0x08014570        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+ .text          0x08014570        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strchr.o)
+ *(.text*)
+ .text.startup  0x08014570       0x44 main.o
+                0x08014570                main
+ .text.memcpy   0x080145b4       0x16 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memcpy-stub.o)
+                0x080145b4                memcpy
+ .text.memmove  0x080145ca       0x34 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memmove.o)
+                0x080145ca                memmove
+ .text.memset   0x080145fe       0x10 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+                0x080145fe                memset
+ .text.strrchr  0x0801460e       0x26 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+                0x0801460e                strrchr
+ .text.strchr   0x08014634       0x1c c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strchr.o)
+                0x08014634                strchr
+ *(.glue_7)
+ .glue_7        0x08014650        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08014650        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x08014650                . = ALIGN (0x4)
+                0x08014650                _etext = .
+
+.vfp11_veneer   0x08014650        0x0
+ .vfp11_veneer  0x08014650        0x0 linker stubs
+
+.v4_bx          0x08014650        0x0
+ .v4_bx         0x08014650        0x0 linker stubs
+
+.iplt           0x08014650        0x0
+ .iplt          0x08014650        0x0 cmsis_boot\startup\startup_stm32f4xx.o
+
+.rodata         0x08014650     0x3478
+                0x08014650                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x08014650       0x80 ub_lib\fatfs\ff.o
+ .rodata        0x080146d0      0x508 ub_lib\helix_mp3\mp3tabs.o
+                0x080146d0                xmp3fixpt_sfBandTable
+                0x0801496c                xmp3fixpt_slotTab
+                0x08014a7c                xmp3fixpt_sideBytesTab
+                0x08014a88                xmp3fixpt_bitsPerSlotTab
+                0x08014a90                xmp3fixpt_samplesPerFrameTab
+                0x08014aa4                xmp3fixpt_bitrateTab
+                0x08014bb4                xmp3fixpt_samplerateTab
+ .rodata        0x08014bd8       0xc0 ub_lib\helix_mp3\real\dct32.o
+ .rodata        0x08014c98      0x226 ub_lib\helix_mp3\real\dqchan.o
+ *fill*         0x08014ebe        0x2 
+ .rodata        0x08014ec0     0x2304 ub_lib\helix_mp3\real\hufftabs.o
+                0x08014ec0                xmp3fixpt_quadTabMaxBits
+                0x08014ec8                xmp3fixpt_quadTabOffset
+                0x08014ed0                xmp3fixpt_quadTable
+                0x08014f20                xmp3fixpt_huffTabLookup
+                0x08015020                xmp3fixpt_huffTabOffset
+                0x080150a0                xmp3fixpt_huffTable
+ .rodata        0x080171c4       0x68 ub_lib\helix_mp3\real\scalfact.o
+ .rodata        0x0801722c      0x86c ub_lib\helix_mp3\real\trigtabs_fixpt.o
+                0x0801722c                xmp3fixpt_polyCoef
+                0x0801764c                xmp3fixpt_coef32
+                0x080176c8                xmp3fixpt_csa
+                0x08017708                xmp3fixpt_uniqueIDTab
+                0x08017710                xmp3fixpt_ISFIIP
+                0x08017720                xmp3fixpt_ISFMpeg2
+                0x08017820                xmp3fixpt_ISFMpeg1
+                0x08017858                xmp3fixpt_imdctWin
+ *(.rodata*)
+ .rodata.str1.4
+                0x08017a98        0xf ub_lib\fatfs\ff.o
+ *fill*         0x08017aa7        0x1 
+ .rodata.str1.4
+                0x08017aa8        0x3 ub_lib\stm32_ub_fatfs.o
+ *fill*         0x08017aab        0x1 
+ .rodata.str1.4
+                0x08017aac       0x16 ub_lib\stm32_ub_mp3Player.o
+                                 0x19 (size before relaxing)
+ *fill*         0x08017ac2        0x2 
+ .rodata.str1.4
+                0x08017ac4        0x4 ub_lib\usb_msc_host_lolevel\usbh_core.o
+                0x08017ac8                . = ALIGN (0x4)
+
+.rel.dyn        0x08017ac8        0x0
+ .rel.iplt      0x08017ac8        0x0 cmsis_boot\startup\startup_stm32f4xx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08017ac8        0x0
+                0x08017ac8                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08017ac8                __exidx_end = .
+
+.preinit_array  0x08017ac8        0x0
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08017ac8        0x0
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                [!provide]                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08017ac8        0x0
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                PROVIDE (__fini_array_end, .)
+                0x08017ac8                _sidata = LOADADDR (.data)
+
+.data           0x20000000      0x124 load address 0x08017ac8
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000        0x0 cmsis_boot\startup\startup_stm32f4xx.o
+ .data          0x20000000       0x14 cmsis_boot\system_stm32f4xx.o
+                0x20000000                AHBPrescTable
+                0x20000010                SystemCoreClock
+ .data          0x20000014        0x0 cmsis_lib\source\misc.o
+ .data          0x20000014        0x0 cmsis_lib\source\stm32f4xx_dma.o
+ .data          0x20000014        0x0 cmsis_lib\source\stm32f4xx_gpio.o
+ .data          0x20000014        0x0 cmsis_lib\source\stm32f4xx_i2c.o
+ .data          0x20000014       0x10 cmsis_lib\source\stm32f4xx_rcc.o
+ .data          0x20000024        0x0 cmsis_lib\source\stm32f4xx_spi.o
+ .data          0x20000024        0x0 main.o
+ .data          0x20000024       0x64 stdio\printf.o
+                0x20000024                _impure_ptr
+                0x20000028                r
+ .data          0x20000088        0x0 syscalls\syscalls.o
+ .data          0x20000088        0x0 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .data          0x20000088        0x0 ub_lib\fatfs\diskio.o
+ .data          0x20000088        0x0 ub_lib\fatfs\ff.o
+ .data          0x20000088        0x0 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .data          0x20000088        0x0 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .data          0x20000088        0x0 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\mp3dec.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\mp3tabs.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\bitstream.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\buffers.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\dct32.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\dequant.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\dqchan.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\huffman.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\hufftabs.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\imdct.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\polyphase.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\scalfact.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\stproc.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\subband.o
+ .data          0x20000088        0x0 ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .data          0x20000088       0x14 ub_lib\stm32_ub_button.o
+                0x20000088                BUTTON
+ .data          0x2000009c        0x0 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .data          0x2000009c        0x0 ub_lib\stm32_ub_fatfs.o
+ .data          0x2000009c       0x20 ub_lib\stm32_ub_i2c1.o
+                0x2000009c                I2C1DEV
+ .data          0x200000bc        0x0 ub_lib\stm32_ub_mp3Player.o
+ .data          0x200000bc        0x0 ub_lib\stm32_ub_usb_msc_host.o
+ .data          0x200000bc        0x0 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .data          0x200000bc        0x0 ub_lib\usb_msc_host_lolevel\usb_core.o
+ .data          0x200000bc        0x0 ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .data          0x200000bc        0x0 ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .data          0x200000bc        0xc ub_lib\usb_msc_host_lolevel\usbh_core.o
+                0x200000bc                USBH_DeviceConnStatus_cb
+ .data          0x200000c8        0x0 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .data          0x200000c8        0x0 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .data          0x200000c8        0x0 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .data          0x200000c8       0x10 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                0x200000c8                USBH_MSC_cb
+ .data          0x200000d8        0x1 ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .data          0x200000d9        0x0 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ *fill*         0x200000d9        0x3 
+ .data          0x200000dc       0x48 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+                0x200000dc                USR_Callbacks
+ .data          0x20000124        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x20000124        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memmove.o)
+ .data          0x20000124        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .data          0x20000124        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strcmp.o)
+ .data          0x20000124        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+ .data          0x20000124        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strchr.o)
+ *(.data*)
+                0x20000124                . = ALIGN (0x4)
+                0x20000124                _edata = .
+                0x08019bec                _siccmram = LOADADDR (.ccmram)
+
+.co_stack       0x20000124     0x2000 load address 0x08017bec
+ .co_stack      0x20000124     0x2000 cmsis_boot\startup\startup_stm32f4xx.o
+                0x20000124                pulStack
+
+.igot.plt       0x20002124        0x0 load address 0x08019bec
+ .igot.plt      0x20002124        0x0 cmsis_boot\startup\startup_stm32f4xx.o
+
+.ccmram         0x10000000        0x0 load address 0x08019bec
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _sccmram = .
+ *(.ccmram)
+ *(.ccmram*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _eccmram = .
+                0x10000000                . = ALIGN (0x4)
+
+.bss            0x20002124     0xebfc
+                0x20002124                _sbss = .
+                0x20002124                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20002124        0x0 cmsis_boot\startup\startup_stm32f4xx.o
+ .bss           0x20002124        0x0 cmsis_boot\system_stm32f4xx.o
+ .bss           0x20002124        0x0 cmsis_lib\source\misc.o
+ .bss           0x20002124        0x0 cmsis_lib\source\stm32f4xx_dma.o
+ .bss           0x20002124        0x0 cmsis_lib\source\stm32f4xx_gpio.o
+ .bss           0x20002124        0x0 cmsis_lib\source\stm32f4xx_i2c.o
+ .bss           0x20002124        0x0 cmsis_lib\source\stm32f4xx_rcc.o
+ .bss           0x20002124        0x0 cmsis_lib\source\stm32f4xx_spi.o
+ .bss           0x20002124        0x0 main.o
+ .bss           0x20002124        0x0 stdio\printf.o
+ .bss           0x20002124        0x4 syscalls\syscalls.o
+ .bss           0x20002128        0x0 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .bss           0x20002128        0x0 ub_lib\fatfs\diskio.o
+ .bss           0x20002128        0x6 ub_lib\fatfs\ff.o
+ .bss           0x2000212e        0x0 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .bss           0x2000212e        0x0 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .bss           0x2000212e        0x0 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .bss           0x2000212e        0x0 ub_lib\helix_mp3\mp3dec.o
+ .bss           0x2000212e        0x0 ub_lib\helix_mp3\mp3tabs.o
+ .bss           0x2000212e        0x0 ub_lib\helix_mp3\real\bitstream.o
+ *fill*         0x2000212e        0x2 
+ .bss           0x20002130     0x5d08 ub_lib\helix_mp3\real\buffers.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\dct32.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\dequant.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\dqchan.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\huffman.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\hufftabs.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\imdct.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\polyphase.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\scalfact.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\stproc.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\subband.o
+ .bss           0x20007e38        0x0 ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .bss           0x20007e38        0x0 ub_lib\stm32_ub_button.o
+ .bss           0x20007e38        0x9 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                0x20007e40                cs43l22_status
+ *fill*         0x20007e41        0x3 
+ .bss           0x20007e44      0x234 ub_lib\stm32_ub_fatfs.o
+ .bss           0x20008078        0x1 ub_lib\stm32_ub_i2c1.o
+ *fill*         0x20008079        0x3 
+ .bss           0x2000807c        0x8 ub_lib\stm32_ub_mp3Player.o
+ .bss           0x20008084        0x0 ub_lib\stm32_ub_usb_msc_host.o
+ .bss           0x20008084        0x0 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .bss           0x20008084        0x0 ub_lib\usb_msc_host_lolevel\usb_core.o
+ .bss           0x20008084        0x0 ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .bss           0x20008084        0x0 ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .bss           0x20008084        0x2 ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .bss           0x20008086        0x0 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .bss           0x20008086        0x0 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ *fill*         0x20008086        0x2 
+ .bss           0x20008088        0xd ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .bss           0x20008095        0x2 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                0x20008096                MSCErrorCount
+ .bss           0x20008097        0x0 ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .bss           0x20008097        0x0 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .bss           0x20008097        0x1 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+ .bss           0x20008098        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x20008098        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memmove.o)
+ .bss           0x20008098        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .bss           0x20008098        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strcmp.o)
+ .bss           0x20008098        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+ .bss           0x20008098        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strchr.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x20008098        0x1 main.o
+                0x20008098                USB_MSC_HOST_STATUS
+ *fill*         0x20008099        0x3 
+ COMMON         0x2000809c       0x3c ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                0x2000809c                DMA_InitStructure
+ COMMON         0x200080d8     0x8268 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                0x200080d8                my_mp3
+                0x2000c11c                myMP3File
+                0x2000c340                mp3_buf
+ COMMON         0x20010340        0x4 ub_lib\stm32_ub_mp3Player.o
+                0x20010340                akt_mp3_nr
+ COMMON         0x20010344      0x534 ub_lib\stm32_ub_usb_msc_host.o
+                0x20010344                USB_OTG_Core
+                0x200107f4                USB_Host
+ COMMON         0x20010878        0x1 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                0x20010878                HSEStartUpStatus
+ *fill*         0x20010879        0x3 
+ COMMON         0x2001087c       0x40 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                0x2001087c                USBH_MSC_CSWData
+                0x2001088c                USBH_MSC_BOTXferParam
+                0x2001089c                USBH_MSC_CBWData
+ COMMON         0x200108bc       0x54 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                0x200108bc                MSC_Machine
+                0x20010908                MSC_Setup
+ COMMON         0x20010910      0x410 ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                0x20010910                USBH_DataInBuffer
+                0x20010b10                USBH_MSC_Param
+                0x20010b20                USBH_DataOutBuffer
+                0x20010d20                . = ALIGN (0x4)
+                0x20010d20                _ebss = .
+                0x20010d20                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20010d20      0x400
+                0x20010d20                . = ALIGN (0x4)
+                [!provide]                PROVIDE (end, .)
+                0x20010d20                PROVIDE (_end, .)
+                0x20010d20                . = (. + _Min_Heap_Size)
+                0x20011120                . = (. + _Min_Stack_Size)
+ *fill*         0x20010d20      0x400 
+                0x20011120                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x35 cmsis_boot\startup\startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000035       0x35 cmsis_boot\system_stm32f4xx.o
+ .ARM.attributes
+                0x0000006a       0x35 cmsis_lib\source\misc.o
+ .ARM.attributes
+                0x0000009f       0x35 cmsis_lib\source\stm32f4xx_dma.o
+ .ARM.attributes
+                0x000000d4       0x35 cmsis_lib\source\stm32f4xx_gpio.o
+ .ARM.attributes
+                0x00000109       0x35 cmsis_lib\source\stm32f4xx_i2c.o
+ .ARM.attributes
+                0x0000013e       0x35 cmsis_lib\source\stm32f4xx_rcc.o
+ .ARM.attributes
+                0x00000173       0x35 cmsis_lib\source\stm32f4xx_spi.o
+ .ARM.attributes
+                0x000001a8       0x35 main.o
+ .ARM.attributes
+                0x000001dd       0x35 stdio\printf.o
+ .ARM.attributes
+                0x00000212       0x35 syscalls\syscalls.o
+ .ARM.attributes
+                0x00000247       0x35 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .ARM.attributes
+                0x0000027c       0x35 ub_lib\fatfs\diskio.o
+ .ARM.attributes
+                0x000002b1       0x35 ub_lib\fatfs\ff.o
+ .ARM.attributes
+                0x000002e6       0x35 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .ARM.attributes
+                0x0000031b       0x35 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .ARM.attributes
+                0x00000350       0x35 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .ARM.attributes
+                0x00000385       0x35 ub_lib\helix_mp3\mp3dec.o
+ .ARM.attributes
+                0x000003ba       0x35 ub_lib\helix_mp3\mp3tabs.o
+ .ARM.attributes
+                0x000003ef       0x35 ub_lib\helix_mp3\real\bitstream.o
+ .ARM.attributes
+                0x00000424       0x35 ub_lib\helix_mp3\real\buffers.o
+ .ARM.attributes
+                0x00000459       0x35 ub_lib\helix_mp3\real\dct32.o
+ .ARM.attributes
+                0x0000048e       0x35 ub_lib\helix_mp3\real\dequant.o
+ .ARM.attributes
+                0x000004c3       0x35 ub_lib\helix_mp3\real\dqchan.o
+ .ARM.attributes
+                0x000004f8       0x35 ub_lib\helix_mp3\real\huffman.o
+ .ARM.attributes
+                0x0000052d       0x35 ub_lib\helix_mp3\real\hufftabs.o
+ .ARM.attributes
+                0x00000562       0x35 ub_lib\helix_mp3\real\imdct.o
+ .ARM.attributes
+                0x00000597       0x35 ub_lib\helix_mp3\real\polyphase.o
+ .ARM.attributes
+                0x000005cc       0x35 ub_lib\helix_mp3\real\scalfact.o
+ .ARM.attributes
+                0x00000601       0x35 ub_lib\helix_mp3\real\stproc.o
+ .ARM.attributes
+                0x00000636       0x35 ub_lib\helix_mp3\real\subband.o
+ .ARM.attributes
+                0x0000066b       0x35 ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .ARM.attributes
+                0x000006a0       0x35 ub_lib\stm32_ub_button.o
+ .ARM.attributes
+                0x000006d5       0x35 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .ARM.attributes
+                0x0000070a       0x35 ub_lib\stm32_ub_fatfs.o
+ .ARM.attributes
+                0x0000073f       0x35 ub_lib\stm32_ub_i2c1.o
+ .ARM.attributes
+                0x00000774       0x35 ub_lib\stm32_ub_mp3Player.o
+ .ARM.attributes
+                0x000007a9       0x35 ub_lib\stm32_ub_usb_msc_host.o
+ .ARM.attributes
+                0x000007de       0x35 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .ARM.attributes
+                0x00000813       0x35 ub_lib\usb_msc_host_lolevel\usb_core.o
+ .ARM.attributes
+                0x00000848       0x35 ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .ARM.attributes
+                0x0000087d       0x35 ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .ARM.attributes
+                0x000008b2       0x35 ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .ARM.attributes
+                0x000008e7       0x35 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .ARM.attributes
+                0x0000091c       0x35 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .ARM.attributes
+                0x00000951       0x35 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .ARM.attributes
+                0x00000986       0x35 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .ARM.attributes
+                0x000009bb       0x35 ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .ARM.attributes
+                0x000009f0       0x35 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .ARM.attributes
+                0x00000a25       0x35 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+ .ARM.attributes
+                0x00000a5a       0x34 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000a8e       0x34 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000ac2       0x34 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000af6       0x20 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000b16       0x34 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+ .ARM.attributes
+                0x00000b4a       0x34 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strchr.o)
+OUTPUT(Show_03_MP3_Player.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x444fa
+ .debug_info    0x00000000      0x133 cmsis_boot\startup\startup_stm32f4xx.o
+ .debug_info    0x00000133      0x5ed cmsis_boot\system_stm32f4xx.o
+ .debug_info    0x00000720      0x551 cmsis_lib\source\misc.o
+ .debug_info    0x00000c71      0x752 cmsis_lib\source\stm32f4xx_dma.o
+ .debug_info    0x000013c3      0x7e8 cmsis_lib\source\stm32f4xx_gpio.o
+ .debug_info    0x00001bab      0xbd2 cmsis_lib\source\stm32f4xx_i2c.o
+ .debug_info    0x0000277d      0xd0e cmsis_lib\source\stm32f4xx_rcc.o
+ .debug_info    0x0000348b      0xbd3 cmsis_lib\source\stm32f4xx_spi.o
+ .debug_info    0x0000405e     0x1926 main.o
+ .debug_info    0x00005984     0x2074 stdio\printf.o
+ .debug_info    0x000079f8      0xc85 syscalls\syscalls.o
+ .debug_info    0x0000867d     0x275f ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .debug_info    0x0000addc     0x1c30 ub_lib\fatfs\diskio.o
+ .debug_info    0x0000ca0c     0x7531 ub_lib\fatfs\ff.o
+ .debug_info    0x00013f3d      0x271 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .debug_info    0x000141ae      0x271 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .debug_info    0x0001441f     0x2072 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .debug_info    0x00016491     0x152c ub_lib\helix_mp3\mp3dec.o
+ .debug_info    0x000179bd      0x258 ub_lib\helix_mp3\mp3tabs.o
+ .debug_info    0x00017c15     0x13d9 ub_lib\helix_mp3\real\bitstream.o
+ .debug_info    0x00018fee     0x157b ub_lib\helix_mp3\real\buffers.o
+ .debug_info    0x0001a569      0xf5e ub_lib\helix_mp3\real\dct32.o
+ .debug_info    0x0001b4c7      0xc45 ub_lib\helix_mp3\real\dequant.o
+ .debug_info    0x0001c10c      0xcb5 ub_lib\helix_mp3\real\dqchan.o
+ .debug_info    0x0001cdc1      0xe20 ub_lib\helix_mp3\real\huffman.o
+ .debug_info    0x0001dbe1      0x494 ub_lib\helix_mp3\real\hufftabs.o
+ .debug_info    0x0001e075     0x34ef ub_lib\helix_mp3\real\imdct.o
+ .debug_info    0x00021564     0x3164 ub_lib\helix_mp3\real\polyphase.o
+ .debug_info    0x000246c8      0xf65 ub_lib\helix_mp3\real\scalfact.o
+ .debug_info    0x0002562d      0xfa4 ub_lib\helix_mp3\real\stproc.o
+ .debug_info    0x000265d1      0x83d ub_lib\helix_mp3\real\subband.o
+ .debug_info    0x00026e0e      0x4c3 ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .debug_info    0x000272d1      0x437 ub_lib\stm32_ub_button.o
+ .debug_info    0x00027708     0x2931 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .debug_info    0x0002a039     0x21c1 ub_lib\stm32_ub_fatfs.o
+ .debug_info    0x0002c1fa     0x168d ub_lib\stm32_ub_i2c1.o
+ .debug_info    0x0002d887     0x2082 ub_lib\stm32_ub_mp3Player.o
+ .debug_info    0x0002f909     0x1e3f ub_lib\stm32_ub_usb_msc_host.o
+ .debug_info    0x00031748     0x2064 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .debug_info    0x000337ac     0x272a ub_lib\usb_msc_host_lolevel\usb_core.o
+ .debug_info    0x00035ed6      0xddd ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .debug_info    0x00036cb3     0x2106 ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .debug_info    0x00038db9     0x1bb9 ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .debug_info    0x0003a972      0xba3 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .debug_info    0x0003b515     0x15e7 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .debug_info    0x0003cafc     0x1a04 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .debug_info    0x0003e500     0x1b0f ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .debug_info    0x0004000f     0x10c0 ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .debug_info    0x000410cf     0x1a27 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .debug_info    0x00042af6     0x1a04 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+
+.debug_abbrev   0x00000000     0x7870
+ .debug_abbrev  0x00000000       0xf6 cmsis_boot\startup\startup_stm32f4xx.o
+ .debug_abbrev  0x000000f6      0x17d cmsis_boot\system_stm32f4xx.o
+ .debug_abbrev  0x00000273      0x181 cmsis_lib\source\misc.o
+ .debug_abbrev  0x000003f4      0x1e8 cmsis_lib\source\stm32f4xx_dma.o
+ .debug_abbrev  0x000005dc      0x206 cmsis_lib\source\stm32f4xx_gpio.o
+ .debug_abbrev  0x000007e2      0x264 cmsis_lib\source\stm32f4xx_i2c.o
+ .debug_abbrev  0x00000a46      0x2a8 cmsis_lib\source\stm32f4xx_rcc.o
+ .debug_abbrev  0x00000cee      0x1d3 cmsis_lib\source\stm32f4xx_spi.o
+ .debug_abbrev  0x00000ec1      0x1f7 main.o
+ .debug_abbrev  0x000010b8      0x3a0 stdio\printf.o
+ .debug_abbrev  0x00001458      0x1f5 syscalls\syscalls.o
+ .debug_abbrev  0x0000164d      0x3ea ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .debug_abbrev  0x00001a37      0x2b4 ub_lib\fatfs\diskio.o
+ .debug_abbrev  0x00001ceb      0x31a ub_lib\fatfs\ff.o
+ .debug_abbrev  0x00002005      0x166 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .debug_abbrev  0x0000216b      0x166 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .debug_abbrev  0x000022d1      0x2f9 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .debug_abbrev  0x000025ca      0x3c4 ub_lib\helix_mp3\mp3dec.o
+ .debug_abbrev  0x0000298e       0xa0 ub_lib\helix_mp3\mp3tabs.o
+ .debug_abbrev  0x00002a2e      0x2d0 ub_lib\helix_mp3\real\bitstream.o
+ .debug_abbrev  0x00002cfe      0x284 ub_lib\helix_mp3\real\buffers.o
+ .debug_abbrev  0x00002f82      0x1e2 ub_lib\helix_mp3\real\dct32.o
+ .debug_abbrev  0x00003164      0x221 ub_lib\helix_mp3\real\dequant.o
+ .debug_abbrev  0x00003385      0x257 ub_lib\helix_mp3\real\dqchan.o
+ .debug_abbrev  0x000035dc      0x26b ub_lib\helix_mp3\real\huffman.o
+ .debug_abbrev  0x00003847       0xe4 ub_lib\helix_mp3\real\hufftabs.o
+ .debug_abbrev  0x0000392b      0x372 ub_lib\helix_mp3\real\imdct.o
+ .debug_abbrev  0x00003c9d      0x2aa ub_lib\helix_mp3\real\polyphase.o
+ .debug_abbrev  0x00003f47      0x22e ub_lib\helix_mp3\real\scalfact.o
+ .debug_abbrev  0x00004175      0x24f ub_lib\helix_mp3\real\stproc.o
+ .debug_abbrev  0x000043c4      0x196 ub_lib\helix_mp3\real\subband.o
+ .debug_abbrev  0x0000455a       0xf5 ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .debug_abbrev  0x0000464f      0x1b1 ub_lib\stm32_ub_button.o
+ .debug_abbrev  0x00004800      0x48a ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .debug_abbrev  0x00004c8a      0x318 ub_lib\stm32_ub_fatfs.o
+ .debug_abbrev  0x00004fa2      0x2a4 ub_lib\stm32_ub_i2c1.o
+ .debug_abbrev  0x00005246      0x31a ub_lib\stm32_ub_mp3Player.o
+ .debug_abbrev  0x00005560      0x22a ub_lib\stm32_ub_usb_msc_host.o
+ .debug_abbrev  0x0000578a      0x342 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .debug_abbrev  0x00005acc      0x466 ub_lib\usb_msc_host_lolevel\usb_core.o
+ .debug_abbrev  0x00005f32      0x1cb ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .debug_abbrev  0x000060fd      0x280 ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .debug_abbrev  0x0000637d      0x34d ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .debug_abbrev  0x000066ca      0x1e9 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .debug_abbrev  0x000068b3      0x1f3 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .debug_abbrev  0x00006aa6      0x29a ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .debug_abbrev  0x00006d40      0x33d ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .debug_abbrev  0x0000707d      0x20a ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .debug_abbrev  0x00007287      0x324 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .debug_abbrev  0x000075ab      0x2c5 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+
+.debug_aranges  0x00000000      0x628
+ .debug_aranges
+                0x00000000       0x20 cmsis_boot\startup\startup_stm32f4xx.o
+ .debug_aranges
+                0x00000020       0x20 cmsis_boot\system_stm32f4xx.o
+ .debug_aranges
+                0x00000040       0x20 cmsis_lib\source\misc.o
+ .debug_aranges
+                0x00000060       0x20 cmsis_lib\source\stm32f4xx_dma.o
+ .debug_aranges
+                0x00000080       0x20 cmsis_lib\source\stm32f4xx_gpio.o
+ .debug_aranges
+                0x000000a0       0x20 cmsis_lib\source\stm32f4xx_i2c.o
+ .debug_aranges
+                0x000000c0       0x20 cmsis_lib\source\stm32f4xx_rcc.o
+ .debug_aranges
+                0x000000e0       0x20 cmsis_lib\source\stm32f4xx_spi.o
+ .debug_aranges
+                0x00000100       0x20 main.o
+ .debug_aranges
+                0x00000120       0x20 stdio\printf.o
+ .debug_aranges
+                0x00000140       0x20 syscalls\syscalls.o
+ .debug_aranges
+                0x00000160       0x20 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .debug_aranges
+                0x00000180       0x20 ub_lib\fatfs\diskio.o
+ .debug_aranges
+                0x000001a0       0x20 ub_lib\fatfs\ff.o
+ .debug_aranges
+                0x000001c0       0x20 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .debug_aranges
+                0x000001e0       0x20 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .debug_aranges
+                0x00000200       0x20 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .debug_aranges
+                0x00000220       0x20 ub_lib\helix_mp3\mp3dec.o
+ .debug_aranges
+                0x00000240       0x18 ub_lib\helix_mp3\mp3tabs.o
+ .debug_aranges
+                0x00000258       0x20 ub_lib\helix_mp3\real\bitstream.o
+ .debug_aranges
+                0x00000278       0x20 ub_lib\helix_mp3\real\buffers.o
+ .debug_aranges
+                0x00000298       0x20 ub_lib\helix_mp3\real\dct32.o
+ .debug_aranges
+                0x000002b8       0x20 ub_lib\helix_mp3\real\dequant.o
+ .debug_aranges
+                0x000002d8       0x20 ub_lib\helix_mp3\real\dqchan.o
+ .debug_aranges
+                0x000002f8       0x20 ub_lib\helix_mp3\real\huffman.o
+ .debug_aranges
+                0x00000318       0x18 ub_lib\helix_mp3\real\hufftabs.o
+ .debug_aranges
+                0x00000330       0x20 ub_lib\helix_mp3\real\imdct.o
+ .debug_aranges
+                0x00000350       0x20 ub_lib\helix_mp3\real\polyphase.o
+ .debug_aranges
+                0x00000370       0x20 ub_lib\helix_mp3\real\scalfact.o
+ .debug_aranges
+                0x00000390       0x20 ub_lib\helix_mp3\real\stproc.o
+ .debug_aranges
+                0x000003b0       0x20 ub_lib\helix_mp3\real\subband.o
+ .debug_aranges
+                0x000003d0       0x18 ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .debug_aranges
+                0x000003e8       0x20 ub_lib\stm32_ub_button.o
+ .debug_aranges
+                0x00000408       0x20 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .debug_aranges
+                0x00000428       0x20 ub_lib\stm32_ub_fatfs.o
+ .debug_aranges
+                0x00000448       0x20 ub_lib\stm32_ub_i2c1.o
+ .debug_aranges
+                0x00000468       0x20 ub_lib\stm32_ub_mp3Player.o
+ .debug_aranges
+                0x00000488       0x20 ub_lib\stm32_ub_usb_msc_host.o
+ .debug_aranges
+                0x000004a8       0x20 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .debug_aranges
+                0x000004c8       0x20 ub_lib\usb_msc_host_lolevel\usb_core.o
+ .debug_aranges
+                0x000004e8       0x20 ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .debug_aranges
+                0x00000508       0x20 ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .debug_aranges
+                0x00000528       0x20 ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .debug_aranges
+                0x00000548       0x20 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .debug_aranges
+                0x00000568       0x20 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .debug_aranges
+                0x00000588       0x20 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .debug_aranges
+                0x000005a8       0x20 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .debug_aranges
+                0x000005c8       0x20 ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .debug_aranges
+                0x000005e8       0x20 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .debug_aranges
+                0x00000608       0x20 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+
+.debug_line     0x00000000     0xfc53
+ .debug_line    0x00000000       0x66 cmsis_boot\startup\startup_stm32f4xx.o
+ .debug_line    0x00000066      0x206 cmsis_boot\system_stm32f4xx.o
+ .debug_line    0x0000026c      0x27b cmsis_lib\source\misc.o
+ .debug_line    0x000004e7      0x3a9 cmsis_lib\source\stm32f4xx_dma.o
+ .debug_line    0x00000890      0x340 cmsis_lib\source\stm32f4xx_gpio.o
+ .debug_line    0x00000bd0      0x3ce cmsis_lib\source\stm32f4xx_i2c.o
+ .debug_line    0x00000f9e      0x3d4 cmsis_lib\source\stm32f4xx_rcc.o
+ .debug_line    0x00001372      0x3b7 cmsis_lib\source\stm32f4xx_spi.o
+ .debug_line    0x00001729      0x3b2 main.o
+ .debug_line    0x00001adb      0x5ee stdio\printf.o
+ .debug_line    0x000020c9      0x251 syscalls\syscalls.o
+ .debug_line    0x0000231a      0x575 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .debug_line    0x0000288f      0x4b9 ub_lib\fatfs\diskio.o
+ .debug_line    0x00002d48     0x1d2a ub_lib\fatfs\ff.o
+ .debug_line    0x00004a72      0x24b ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .debug_line    0x00004cbd      0x249 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .debug_line    0x00004f06      0x480 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .debug_line    0x00005386      0x4d9 ub_lib\helix_mp3\mp3dec.o
+ .debug_line    0x0000585f      0x1ef ub_lib\helix_mp3\mp3tabs.o
+ .debug_line    0x00005a4e      0x8b7 ub_lib\helix_mp3\real\bitstream.o
+ .debug_line    0x00006305      0x33d ub_lib\helix_mp3\real\buffers.o
+ .debug_line    0x00006642      0x76b ub_lib\helix_mp3\real\dct32.o
+ .debug_line    0x00006dad      0x2ef ub_lib\helix_mp3\real\dequant.o
+ .debug_line    0x0000709c      0x3f6 ub_lib\helix_mp3\real\dqchan.o
+ .debug_line    0x00007492      0x47b ub_lib\helix_mp3\real\huffman.o
+ .debug_line    0x0000790d      0x208 ub_lib\helix_mp3\real\hufftabs.o
+ .debug_line    0x00007b15     0x1b56 ub_lib\helix_mp3\real\imdct.o
+ .debug_line    0x0000966b      0xa5d ub_lib\helix_mp3\real\polyphase.o
+ .debug_line    0x0000a0c8      0x374 ub_lib\helix_mp3\real\scalfact.o
+ .debug_line    0x0000a43c      0x740 ub_lib\helix_mp3\real\stproc.o
+ .debug_line    0x0000ab7c      0x2b9 ub_lib\helix_mp3\real\subband.o
+ .debug_line    0x0000ae35      0x20e ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .debug_line    0x0000b043      0x27a ub_lib\stm32_ub_button.o
+ .debug_line    0x0000b2bd      0x851 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .debug_line    0x0000bb0e      0x593 ub_lib\stm32_ub_fatfs.o
+ .debug_line    0x0000c0a1      0x503 ub_lib\stm32_ub_i2c1.o
+ .debug_line    0x0000c5a4      0x53d ub_lib\stm32_ub_mp3Player.o
+ .debug_line    0x0000cae1      0x37c ub_lib\stm32_ub_usb_msc_host.o
+ .debug_line    0x0000ce5d      0x3eb ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .debug_line    0x0000d248      0x74c ub_lib\usb_msc_host_lolevel\usb_core.o
+ .debug_line    0x0000d994      0x268 ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .debug_line    0x0000dbfc      0x3dd ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .debug_line    0x0000dfd9      0x482 ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .debug_line    0x0000e45b      0x26d ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .debug_line    0x0000e6c8      0x2c2 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .debug_line    0x0000e98a      0x3de ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .debug_line    0x0000ed68      0x3a0 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .debug_line    0x0000f108      0x44c ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .debug_line    0x0000f554      0x381 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .debug_line    0x0000f8d5      0x37e ub_lib\usb_msc_host_lolevel\usbh_usr.o
+
+.debug_str      0x00000000     0x7164
+ .debug_str     0x00000000      0x192 cmsis_boot\startup\startup_stm32f4xx.o
+                                0x1a9 (size before relaxing)
+ .debug_str     0x00000192      0x28c cmsis_boot\system_stm32f4xx.o
+                                0x3ee (size before relaxing)
+ .debug_str     0x0000041e      0x1bf cmsis_lib\source\misc.o
+                                0x422 (size before relaxing)
+ .debug_str     0x000005dd      0x37d cmsis_lib\source\stm32f4xx_dma.o
+                                0x596 (size before relaxing)
+ .debug_str     0x0000095a      0x310 cmsis_lib\source\stm32f4xx_gpio.o
+                                0x50e (size before relaxing)
+ .debug_str     0x00000c6a      0x440 cmsis_lib\source\stm32f4xx_i2c.o
+                                0x6e2 (size before relaxing)
+ .debug_str     0x000010aa      0x498 cmsis_lib\source\stm32f4xx_rcc.o
+                                0x8a4 (size before relaxing)
+ .debug_str     0x00001542      0x381 cmsis_lib\source\stm32f4xx_spi.o
+                                0x70c (size before relaxing)
+ .debug_str     0x000018c3     0x1010 main.o
+                               0x13de (size before relaxing)
+ .debug_str     0x000028d3       0xf1 stdio\printf.o
+                                0x6e9 (size before relaxing)
+ .debug_str     0x000029c4      0x158 syscalls\syscalls.o
+                                0x763 (size before relaxing)
+ .debug_str     0x00002b1c      0x7f1 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                0xfad (size before relaxing)
+ .debug_str     0x0000330d      0x166 ub_lib\fatfs\diskio.o
+                               0x1507 (size before relaxing)
+ .debug_str     0x00003473      0x467 ub_lib\fatfs\ff.o
+                                0x6c6 (size before relaxing)
+ .debug_str     0x000038da       0x61 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+                                0x29a (size before relaxing)
+ .debug_str     0x0000393b       0x52 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+                                0x294 (size before relaxing)
+ .debug_str     0x0000398d      0x68d ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                               0x1a79 (size before relaxing)
+ .debug_str     0x0000401a      0x575 ub_lib\helix_mp3\mp3dec.o
+                                0xba7 (size before relaxing)
+ .debug_str     0x0000458f       0x1e ub_lib\helix_mp3\mp3tabs.o
+                                0x28e (size before relaxing)
+ .debug_str     0x000045ad      0x396 ub_lib\helix_mp3\real\bitstream.o
+                                0x7f0 (size before relaxing)
+ .debug_str     0x00004943      0x183 ub_lib\helix_mp3\real\buffers.o
+                                0xce8 (size before relaxing)
+ .debug_str     0x00004ac6       0x57 ub_lib\helix_mp3\real\dct32.o
+                                0x468 (size before relaxing)
+ .debug_str     0x00004b1d       0x9a ub_lib\helix_mp3\real\dequant.o
+                                0x85b (size before relaxing)
+ .debug_str     0x00004bb7       0xe0 ub_lib\helix_mp3\real\dqchan.o
+                                0x71c (size before relaxing)
+ .debug_str     0x00004c97       0xa7 ub_lib\helix_mp3\real\huffman.o
+                                0x855 (size before relaxing)
+ .debug_str     0x00004d3e       0x24 ub_lib\helix_mp3\real\hufftabs.o
+                                0x424 (size before relaxing)
+ .debug_str     0x00004d62      0x17d ub_lib\helix_mp3\real\imdct.o
+                                0x8dc (size before relaxing)
+ .debug_str     0x00004edf       0xc8 ub_lib\helix_mp3\real\polyphase.o
+                                0x4e0 (size before relaxing)
+ .debug_str     0x00004fa7       0x88 ub_lib\helix_mp3\real\scalfact.o
+                                0x877 (size before relaxing)
+ .debug_str     0x0000502f       0x59 ub_lib\helix_mp3\real\stproc.o
+                                0x630 (size before relaxing)
+ .debug_str     0x00005088       0x2a ub_lib\helix_mp3\real\subband.o
+                                0x650 (size before relaxing)
+ .debug_str     0x000050b2       0x40 ub_lib\helix_mp3\real\trigtabs_fixpt.o
+                                0x440 (size before relaxing)
+ .debug_str     0x000050f2       0xca ub_lib\stm32_ub_button.o
+                                0x488 (size before relaxing)
+ .debug_str     0x000051bc      0x4b4 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                               0x1d7f (size before relaxing)
+ .debug_str     0x00005670      0x11c ub_lib\stm32_ub_fatfs.o
+                               0x184f (size before relaxing)
+ .debug_str     0x0000578c       0x8f ub_lib\stm32_ub_i2c1.o
+                                0x65e (size before relaxing)
+ .debug_str     0x0000581b       0xbb ub_lib\stm32_ub_mp3Player.o
+                               0x186a (size before relaxing)
+ .debug_str     0x000058d6       0x5f ub_lib\stm32_ub_usb_msc_host.o
+                               0x19a9 (size before relaxing)
+ .debug_str     0x00005935       0xfe ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                               0x1b73 (size before relaxing)
+ .debug_str     0x00005a33      0x9fa ub_lib\usb_msc_host_lolevel\usb_core.o
+                               0x141d (size before relaxing)
+ .debug_str     0x0000642d       0xbc ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                0xa3f (size before relaxing)
+ .debug_str     0x000064e9      0x256 ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+                               0x104c (size before relaxing)
+ .debug_str     0x0000673f      0x1b6 ub_lib\usb_msc_host_lolevel\usbh_core.o
+                               0x1438 (size before relaxing)
+ .debug_str     0x000068f5       0x52 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+                                0x8fa (size before relaxing)
+ .debug_str     0x00006947       0xa8 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                               0x127e (size before relaxing)
+ .debug_str     0x000069ef      0x108 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                               0x15e9 (size before relaxing)
+ .debug_str     0x00006af7      0x257 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                               0x177e (size before relaxing)
+ .debug_str     0x00006d4e       0x8b ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                0xded (size before relaxing)
+ .debug_str     0x00006dd9      0x181 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                               0x1367 (size before relaxing)
+ .debug_str     0x00006f5a      0x20a ub_lib\usb_msc_host_lolevel\usbh_usr.o
+                               0x1563 (size before relaxing)
+
+.comment        0x00000000       0x7c
+ .comment       0x00000000       0x7c cmsis_boot\startup\startup_stm32f4xx.o
+                                 0x7d (size before relaxing)
+ .comment       0x0000007c       0x7d cmsis_boot\system_stm32f4xx.o
+ .comment       0x0000007c       0x7d cmsis_lib\source\misc.o
+ .comment       0x0000007c       0x7d cmsis_lib\source\stm32f4xx_dma.o
+ .comment       0x0000007c       0x7d cmsis_lib\source\stm32f4xx_gpio.o
+ .comment       0x0000007c       0x7d cmsis_lib\source\stm32f4xx_i2c.o
+ .comment       0x0000007c       0x7d cmsis_lib\source\stm32f4xx_rcc.o
+ .comment       0x0000007c       0x7d cmsis_lib\source\stm32f4xx_spi.o
+ .comment       0x0000007c       0x7d main.o
+ .comment       0x0000007c       0x7d stdio\printf.o
+ .comment       0x0000007c       0x7d syscalls\syscalls.o
+ .comment       0x0000007c       0x7d ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .comment       0x0000007c       0x7d ub_lib\fatfs\diskio.o
+ .comment       0x0000007c       0x7d ub_lib\fatfs\ff.o
+ .comment       0x0000007c       0x7d ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .comment       0x0000007c       0x7d ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .comment       0x0000007c       0x7d ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\mp3dec.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\mp3tabs.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\bitstream.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\buffers.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\dct32.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\dequant.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\dqchan.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\huffman.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\hufftabs.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\imdct.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\polyphase.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\scalfact.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\stproc.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\subband.o
+ .comment       0x0000007c       0x7d ub_lib\helix_mp3\real\trigtabs_fixpt.o
+ .comment       0x0000007c       0x7d ub_lib\stm32_ub_button.o
+ .comment       0x0000007c       0x7d ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .comment       0x0000007c       0x7d ub_lib\stm32_ub_fatfs.o
+ .comment       0x0000007c       0x7d ub_lib\stm32_ub_i2c1.o
+ .comment       0x0000007c       0x7d ub_lib\stm32_ub_mp3Player.o
+ .comment       0x0000007c       0x7d ub_lib\stm32_ub_usb_msc_host.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usb_core.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .comment       0x0000007c       0x7d ub_lib\usb_msc_host_lolevel\usbh_usr.o
+
+.debug_frame    0x00000000     0x3368
+ .debug_frame   0x00000000       0x3c cmsis_boot\startup\startup_stm32f4xx.o
+ .debug_frame   0x0000003c       0x3c cmsis_boot\system_stm32f4xx.o
+ .debug_frame   0x00000078       0x70 cmsis_lib\source\misc.o
+ .debug_frame   0x000000e8      0x1b0 cmsis_lib\source\stm32f4xx_dma.o
+ .debug_frame   0x00000298      0x164 cmsis_lib\source\stm32f4xx_gpio.o
+ .debug_frame   0x000003fc      0x274 cmsis_lib\source\stm32f4xx_i2c.o
+ .debug_frame   0x00000670      0x2f0 cmsis_lib\source\stm32f4xx_rcc.o
+ .debug_frame   0x00000960      0x1fc cmsis_lib\source\stm32f4xx_spi.o
+ .debug_frame   0x00000b5c       0x28 main.o
+ .debug_frame   0x00000b84      0x2c0 stdio\printf.o
+ .debug_frame   0x00000e44       0xa0 syscalls\syscalls.o
+ .debug_frame   0x00000ee4      0x128 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .debug_frame   0x0000100c       0x98 ub_lib\fatfs\diskio.o
+ .debug_frame   0x000010a4      0x7b0 ub_lib\fatfs\ff.o
+ .debug_frame   0x00001854       0x80 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .debug_frame   0x000018d4       0x80 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .debug_frame   0x00001954       0xc8 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .debug_frame   0x00001a1c       0xec ub_lib\helix_mp3\mp3dec.o
+ .debug_frame   0x00001b08       0xe4 ub_lib\helix_mp3\real\bitstream.o
+ .debug_frame   0x00001bec       0x44 ub_lib\helix_mp3\real\buffers.o
+ .debug_frame   0x00001c30       0x40 ub_lib\helix_mp3\real\dct32.o
+ .debug_frame   0x00001c70       0x64 ub_lib\helix_mp3\real\dequant.o
+ .debug_frame   0x00001cd4       0x78 ub_lib\helix_mp3\real\dqchan.o
+ .debug_frame   0x00001d4c       0x48 ub_lib\helix_mp3\real\huffman.o
+ .debug_frame   0x00001d94       0xa4 ub_lib\helix_mp3\real\imdct.o
+ .debug_frame   0x00001e38       0x70 ub_lib\helix_mp3\real\polyphase.o
+ .debug_frame   0x00001ea8       0x44 ub_lib\helix_mp3\real\scalfact.o
+ .debug_frame   0x00001eec       0xa8 ub_lib\helix_mp3\real\stproc.o
+ .debug_frame   0x00001f94       0x4c ub_lib\helix_mp3\real\subband.o
+ .debug_frame   0x00001fe0       0x48 ub_lib\stm32_ub_button.o
+ .debug_frame   0x00002028      0x258 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .debug_frame   0x00002280      0x150 ub_lib\stm32_ub_fatfs.o
+ .debug_frame   0x000023d0      0x128 ub_lib\stm32_ub_i2c1.o
+ .debug_frame   0x000024f8       0xc0 ub_lib\stm32_ub_mp3Player.o
+ .debug_frame   0x000025b8       0x48 ub_lib\stm32_ub_usb_msc_host.o
+ .debug_frame   0x00002600       0xbc ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .debug_frame   0x000026bc      0x2ac ub_lib\usb_msc_host_lolevel\usb_core.o
+ .debug_frame   0x00002968       0xd4 ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .debug_frame   0x00002a3c      0x1ac ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .debug_frame   0x00002be8       0xe0 ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .debug_frame   0x00002cc8       0x7c ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .debug_frame   0x00002d44      0x110 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .debug_frame   0x00002e54       0x88 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .debug_frame   0x00002edc       0xa0 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .debug_frame   0x00002f7c       0xec ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .debug_frame   0x00003068       0xec ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .debug_frame   0x00003154      0x130 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+ .debug_frame   0x00003284       0x28 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000032ac       0x28 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x000032d4       0x20 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x000032f4       0x20 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x00003314       0x34 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+ .debug_frame   0x00003348       0x20 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strchr.o)
+
+.debug_loc      0x00000000    0x2fbca
+ .debug_loc     0x00000000      0x13b cmsis_boot\system_stm32f4xx.o
+ .debug_loc     0x0000013b      0x152 cmsis_lib\source\misc.o
+ .debug_loc     0x0000028d      0x3e7 cmsis_lib\source\stm32f4xx_dma.o
+ .debug_loc     0x00000674      0x36b cmsis_lib\source\stm32f4xx_gpio.o
+ .debug_loc     0x000009df      0x66a cmsis_lib\source\stm32f4xx_i2c.o
+ .debug_loc     0x00001049      0xaba cmsis_lib\source\stm32f4xx_rcc.o
+ .debug_loc     0x00001b03      0x6e1 cmsis_lib\source\stm32f4xx_spi.o
+ .debug_loc     0x000021e4       0x38 main.o
+ .debug_loc     0x0000221c     0x2fa0 stdio\printf.o
+ .debug_loc     0x000051bc      0x11f syscalls\syscalls.o
+ .debug_loc     0x000052db      0xe9b ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .debug_loc     0x00006176      0x54d ub_lib\fatfs\diskio.o
+ .debug_loc     0x000066c3     0xbac3 ub_lib\fatfs\ff.o
+ .debug_loc     0x00012186       0x42 ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+ .debug_loc     0x000121c8       0x42 ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+ .debug_loc     0x0001220a      0x1b4 ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+ .debug_loc     0x000123be      0x935 ub_lib\helix_mp3\mp3dec.o
+ .debug_loc     0x00012cf3     0x676c ub_lib\helix_mp3\real\bitstream.o
+ .debug_loc     0x0001945f     0x2083 ub_lib\helix_mp3\real\dct32.o
+ .debug_loc     0x0001b4e2      0x28e ub_lib\helix_mp3\real\dequant.o
+ .debug_loc     0x0001b770      0xa5b ub_lib\helix_mp3\real\dqchan.o
+ .debug_loc     0x0001c1cb     0x13ab ub_lib\helix_mp3\real\huffman.o
+ .debug_loc     0x0001d576     0x639f ub_lib\helix_mp3\real\imdct.o
+ .debug_loc     0x00023915     0x2ea3 ub_lib\helix_mp3\real\polyphase.o
+ .debug_loc     0x000267b8     0x154a ub_lib\helix_mp3\real\scalfact.o
+ .debug_loc     0x00027d02     0x183e ub_lib\helix_mp3\real\stproc.o
+ .debug_loc     0x00029540      0x175 ub_lib\helix_mp3\real\subband.o
+ .debug_loc     0x000296b5       0x59 ub_lib\stm32_ub_button.o
+ .debug_loc     0x0002970e      0x822 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .debug_loc     0x00029f30      0x8f0 ub_lib\stm32_ub_fatfs.o
+ .debug_loc     0x0002a820      0x38a ub_lib\stm32_ub_i2c1.o
+ .debug_loc     0x0002abaa      0x26c ub_lib\stm32_ub_mp3Player.o
+ .debug_loc     0x0002ae16      0x144 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .debug_loc     0x0002af5a     0x154e ub_lib\usb_msc_host_lolevel\usb_core.o
+ .debug_loc     0x0002c4a8      0x2d5 ub_lib\usb_msc_host_lolevel\usb_hcd.o
+ .debug_loc     0x0002c77d      0x8c3 ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+ .debug_loc     0x0002d040      0xc46 ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .debug_loc     0x0002dc86      0x456 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .debug_loc     0x0002e0dc      0x585 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .debug_loc     0x0002e661      0x604 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .debug_loc     0x0002ec65      0x2f0 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .debug_loc     0x0002ef55      0x3fe ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+ .debug_loc     0x0002f353      0x856 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+ .debug_loc     0x0002fba9       0x21 ub_lib\usb_msc_host_lolevel\usbh_usr.o
+
+.debug_ranges   0x00000000     0x55a8
+ .debug_ranges  0x00000000       0x18 cmsis_boot\system_stm32f4xx.o
+ .debug_ranges  0x00000018       0x20 cmsis_lib\source\stm32f4xx_rcc.o
+ .debug_ranges  0x00000038       0x10 main.o
+ .debug_ranges  0x00000048      0x548 stdio\printf.o
+ .debug_ranges  0x00000590      0x348 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+ .debug_ranges  0x000008d8     0x1c40 ub_lib\fatfs\ff.o
+ .debug_ranges  0x00002518       0x48 ub_lib\helix_mp3\mp3dec.o
+ .debug_ranges  0x00002560      0x938 ub_lib\helix_mp3\real\bitstream.o
+ .debug_ranges  0x00002e98      0x308 ub_lib\helix_mp3\real\dct32.o
+ .debug_ranges  0x000031a0       0x18 ub_lib\helix_mp3\real\dqchan.o
+ .debug_ranges  0x000031b8       0xa8 ub_lib\helix_mp3\real\huffman.o
+ .debug_ranges  0x00003260     0x1880 ub_lib\helix_mp3\real\imdct.o
+ .debug_ranges  0x00004ae0      0x280 ub_lib\helix_mp3\real\polyphase.o
+ .debug_ranges  0x00004d60       0x70 ub_lib\helix_mp3\real\scalfact.o
+ .debug_ranges  0x00004dd0      0x1e8 ub_lib\helix_mp3\real\stproc.o
+ .debug_ranges  0x00004fb8      0x190 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+ .debug_ranges  0x00005148      0x150 ub_lib\stm32_ub_i2c1.o
+ .debug_ranges  0x00005298       0x28 ub_lib\stm32_ub_mp3Player.o
+ .debug_ranges  0x000052c0       0x18 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+ .debug_ranges  0x000052d8       0xd8 ub_lib\usb_msc_host_lolevel\usb_core.o
+ .debug_ranges  0x000053b0       0x40 ub_lib\usb_msc_host_lolevel\usbh_core.o
+ .debug_ranges  0x000053f0       0x28 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+ .debug_ranges  0x00005418       0x20 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+ .debug_ranges  0x00005438       0x28 ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+ .debug_ranges  0x00005460       0x68 ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+ .debug_ranges  0x000054c8       0xe0 ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_IRQHandler                                    cmsis_boot\startup\startup_stm32f4xx.o
+AHBPrescTable                                     cmsis_boot\system_stm32f4xx.o
+ATA_disk_initialize                               ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+                                                  ub_lib\fatfs\diskio.o
+ATA_disk_ioctl                                    ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+                                                  ub_lib\fatfs\diskio.o
+ATA_disk_read                                     ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+                                                  ub_lib\fatfs\diskio.o
+ATA_disk_status                                   ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+                                                  ub_lib\fatfs\diskio.o
+ATA_disk_write                                    ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+                                                  ub_lib\fatfs\diskio.o
+BUTTON                                            ub_lib\stm32_ub_button.o
+BusFault_Handler                                  cmsis_boot\startup\startup_stm32f4xx.o
+CAN1_RX0_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+CAN1_RX1_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+CAN1_SCE_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+CAN1_TX_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+CAN2_RX0_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+CAN2_RX1_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+CAN2_SCE_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+CAN2_TX_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+CRYP_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+DCMI_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+DMA1_Stream0_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA1_Stream1_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA1_Stream2_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA1_Stream3_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA1_Stream4_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA1_Stream5_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA1_Stream6_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA1_Stream7_IRQHandler                           ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  cmsis_boot\startup\startup_stm32f4xx.o
+DMA2_Stream0_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA2_Stream1_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA2_Stream2_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA2_Stream3_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA2_Stream4_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA2_Stream5_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA2_Stream6_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA2_Stream7_IRQHandler                           cmsis_boot\startup\startup_stm32f4xx.o
+DMA_ClearFlag                                     cmsis_lib\source\stm32f4xx_dma.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+DMA_ClearITPendingBit                             cmsis_lib\source\stm32f4xx_dma.o
+DMA_Cmd                                           cmsis_lib\source\stm32f4xx_dma.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+DMA_DeInit                                        cmsis_lib\source\stm32f4xx_dma.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+DMA_DoubleBufferModeCmd                           cmsis_lib\source\stm32f4xx_dma.o
+DMA_DoubleBufferModeConfig                        cmsis_lib\source\stm32f4xx_dma.o
+DMA_FlowControllerConfig                          cmsis_lib\source\stm32f4xx_dma.o
+DMA_GetCmdStatus                                  cmsis_lib\source\stm32f4xx_dma.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+DMA_GetCurrDataCounter                            cmsis_lib\source\stm32f4xx_dma.o
+DMA_GetCurrentMemoryTarget                        cmsis_lib\source\stm32f4xx_dma.o
+DMA_GetFIFOStatus                                 cmsis_lib\source\stm32f4xx_dma.o
+DMA_GetFlagStatus                                 cmsis_lib\source\stm32f4xx_dma.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+DMA_GetITStatus                                   cmsis_lib\source\stm32f4xx_dma.o
+DMA_ITConfig                                      cmsis_lib\source\stm32f4xx_dma.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+DMA_Init                                          cmsis_lib\source\stm32f4xx_dma.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+DMA_InitStructure                                 ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+DMA_MemoryTargetConfig                            cmsis_lib\source\stm32f4xx_dma.o
+DMA_PeriphIncOffsetSizeConfig                     cmsis_lib\source\stm32f4xx_dma.o
+DMA_SetCurrDataCounter                            cmsis_lib\source\stm32f4xx_dma.o
+DMA_StructInit                                    cmsis_lib\source\stm32f4xx_dma.o
+DebugMon_Handler                                  cmsis_boot\startup\startup_stm32f4xx.o
+Default_Reset_Handler                             cmsis_boot\startup\startup_stm32f4xx.o
+ETH_IRQHandler                                    cmsis_boot\startup\startup_stm32f4xx.o
+ETH_WKUP_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+EVAL_AUDIO_Init                                   ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EVAL_AUDIO_PauseResume                            ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EVAL_AUDIO_Play                                   ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EVAL_AUDIO_Stop                                   ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EVAL_AUDIO_StopDMA                                ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EVAL_AUDIO_TransferComplete_CallBack              ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+EVAL_AUDIO_VolumeCtl                              ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EVAL_IRQ_DISABLE                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EVAL_IRQ_ENABLE                                   ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EVAL_SET_DMA                                      ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+EXTI0_IRQHandler                                  cmsis_boot\startup\startup_stm32f4xx.o
+EXTI15_10_IRQHandler                              cmsis_boot\startup\startup_stm32f4xx.o
+EXTI1_IRQHandler                                  cmsis_boot\startup\startup_stm32f4xx.o
+EXTI2_IRQHandler                                  cmsis_boot\startup\startup_stm32f4xx.o
+EXTI3_IRQHandler                                  cmsis_boot\startup\startup_stm32f4xx.o
+EXTI4_IRQHandler                                  cmsis_boot\startup\startup_stm32f4xx.o
+EXTI9_5_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+FLASH_IRQHandler                                  cmsis_boot\startup\startup_stm32f4xx.o
+FPU_IRQHandler                                    cmsis_boot\startup\startup_stm32f4xx.o
+FSMC_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+GPIO_DeInit                                       cmsis_lib\source\stm32f4xx_gpio.o
+GPIO_Init                                         cmsis_lib\source\stm32f4xx_gpio.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\stm32_ub_i2c1.o
+                                                  ub_lib\stm32_ub_button.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+GPIO_PinAFConfig                                  cmsis_lib\source\stm32f4xx_gpio.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\stm32_ub_i2c1.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+GPIO_PinLockConfig                                cmsis_lib\source\stm32f4xx_gpio.o
+GPIO_ReadInputData                                cmsis_lib\source\stm32f4xx_gpio.o
+GPIO_ReadInputDataBit                             cmsis_lib\source\stm32f4xx_gpio.o
+                                                  ub_lib\stm32_ub_button.o
+GPIO_ReadOutputData                               cmsis_lib\source\stm32f4xx_gpio.o
+GPIO_ReadOutputDataBit                            cmsis_lib\source\stm32f4xx_gpio.o
+GPIO_ResetBits                                    cmsis_lib\source\stm32f4xx_gpio.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+GPIO_SetBits                                      cmsis_lib\source\stm32f4xx_gpio.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+GPIO_StructInit                                   cmsis_lib\source\stm32f4xx_gpio.o
+GPIO_ToggleBits                                   cmsis_lib\source\stm32f4xx_gpio.o
+GPIO_Write                                        cmsis_lib\source\stm32f4xx_gpio.o
+GPIO_WriteBit                                     cmsis_lib\source\stm32f4xx_gpio.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+HASH_RNG_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+HCD_GetCurrentFrame                               ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+HCD_GetCurrentSpeed                               ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+HCD_GetHCState                                    ub_lib\usb_msc_host_lolevel\usb_hcd.o
+HCD_GetURB_State                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+HCD_GetXferCnt                                    ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+HCD_HC_Init                                       ub_lib\usb_msc_host_lolevel\usb_hcd.o
+HCD_Init                                          ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+HCD_IsDeviceConnected                             ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+                                                  ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+HCD_ResetPort                                     ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+HCD_SubmitRequest                                 ub_lib\usb_msc_host_lolevel\usb_hcd.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+HSEStartUpStatus                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+HardFault_Handler                                 cmsis_boot\startup\startup_stm32f4xx.o
+I2C1DEV                                           ub_lib\stm32_ub_i2c1.o
+I2C1_ER_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+I2C1_EV_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+I2C2_ER_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+I2C2_EV_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+I2C3_ER_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+I2C3_EV_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+I2C_ARPCmd                                        cmsis_lib\source\stm32f4xx_i2c.o
+I2C_AcknowledgeConfig                             cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_CalculatePEC                                  cmsis_lib\source\stm32f4xx_i2c.o
+I2C_CheckEvent                                    cmsis_lib\source\stm32f4xx_i2c.o
+I2C_ClearFlag                                     cmsis_lib\source\stm32f4xx_i2c.o
+I2C_ClearITPendingBit                             cmsis_lib\source\stm32f4xx_i2c.o
+I2C_Cmd                                           cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_DMACmd                                        cmsis_lib\source\stm32f4xx_i2c.o
+I2C_DMALastTransferCmd                            cmsis_lib\source\stm32f4xx_i2c.o
+I2C_DeInit                                        cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_DualAddressCmd                                cmsis_lib\source\stm32f4xx_i2c.o
+I2C_FastModeDutyCycleConfig                       cmsis_lib\source\stm32f4xx_i2c.o
+I2C_GeneralCallCmd                                cmsis_lib\source\stm32f4xx_i2c.o
+I2C_GenerateSTART                                 cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_GenerateSTOP                                  cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_GetFlagStatus                                 cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_GetITStatus                                   cmsis_lib\source\stm32f4xx_i2c.o
+I2C_GetLastEvent                                  cmsis_lib\source\stm32f4xx_i2c.o
+I2C_GetPEC                                        cmsis_lib\source\stm32f4xx_i2c.o
+I2C_ITConfig                                      cmsis_lib\source\stm32f4xx_i2c.o
+I2C_Init                                          cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_NACKPositionConfig                            cmsis_lib\source\stm32f4xx_i2c.o
+I2C_OwnAddress2Config                             cmsis_lib\source\stm32f4xx_i2c.o
+I2C_PECPositionConfig                             cmsis_lib\source\stm32f4xx_i2c.o
+I2C_ReadRegister                                  cmsis_lib\source\stm32f4xx_i2c.o
+I2C_ReceiveData                                   cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_SMBusAlertConfig                              cmsis_lib\source\stm32f4xx_i2c.o
+I2C_Send7bitAddress                               cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_SendData                                      cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_SoftwareResetCmd                              cmsis_lib\source\stm32f4xx_i2c.o
+                                                  ub_lib\stm32_ub_i2c1.o
+I2C_StretchClockCmd                               cmsis_lib\source\stm32f4xx_i2c.o
+I2C_StructInit                                    cmsis_lib\source\stm32f4xx_i2c.o
+I2C_TransmitPEC                                   cmsis_lib\source\stm32f4xx_i2c.o
+I2S_Cmd                                           cmsis_lib\source\stm32f4xx_spi.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+I2S_FullDuplexConfig                              cmsis_lib\source\stm32f4xx_spi.o
+I2S_Init                                          cmsis_lib\source\stm32f4xx_spi.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+I2S_StructInit                                    cmsis_lib\source\stm32f4xx_spi.o
+MMC_disk_initialize                               ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+                                                  ub_lib\fatfs\diskio.o
+MMC_disk_ioctl                                    ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+                                                  ub_lib\fatfs\diskio.o
+MMC_disk_read                                     ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+                                                  ub_lib\fatfs\diskio.o
+MMC_disk_status                                   ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+                                                  ub_lib\fatfs\diskio.o
+MMC_disk_write                                    ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+                                                  ub_lib\fatfs\diskio.o
+MP3Decode                                         ub_lib\helix_mp3\mp3dec.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+MP3FindSyncWord                                   ub_lib\helix_mp3\mp3dec.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+MP3FreeDecoder                                    ub_lib\helix_mp3\mp3dec.o
+MP3GetLastFrameInfo                               ub_lib\helix_mp3\mp3dec.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+MP3GetNextFrameInfo                               ub_lib\helix_mp3\mp3dec.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+MP3InitDecoder                                    ub_lib\helix_mp3\mp3dec.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+MSCErrorCount                                     ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+MSC_Machine                                       ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+MSC_Setup                                         ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+MemManage_Handler                                 cmsis_boot\startup\startup_stm32f4xx.o
+NMI_Handler                                       cmsis_boot\startup\startup_stm32f4xx.o
+NVIC_Init                                         cmsis_lib\source\misc.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+NVIC_PriorityGroupConfig                          cmsis_lib\source\misc.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+NVIC_SetVectorTable                               cmsis_lib\source\misc.o
+NVIC_SystemLPConfig                               cmsis_lib\source\misc.o
+OTG_FS_IRQHandler                                 ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  cmsis_boot\startup\startup_stm32f4xx.o
+OTG_FS_WKUP_IRQHandler                            cmsis_boot\startup\startup_stm32f4xx.o
+OTG_HS_EP1_IN_IRQHandler                          cmsis_boot\startup\startup_stm32f4xx.o
+OTG_HS_EP1_OUT_IRQHandler                         cmsis_boot\startup\startup_stm32f4xx.o
+OTG_HS_IRQHandler                                 cmsis_boot\startup\startup_stm32f4xx.o
+OTG_HS_WKUP_IRQHandler                            cmsis_boot\startup\startup_stm32f4xx.o
+PVD_IRQHandler                                    cmsis_boot\startup\startup_stm32f4xx.o
+P_CS43L22_InitMP3                                 ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+P_Check_File_Extension                            ub_lib\stm32_ub_mp3Player.o
+P_I2C1_InitI2C                                    ub_lib\stm32_ub_i2c1.o
+P_I2C1_timeout                                    ub_lib\stm32_ub_i2c1.o
+P_PlayMP3Nr                                       ub_lib\stm32_ub_mp3Player.o
+PendSV_Handler                                    cmsis_boot\startup\startup_stm32f4xx.o
+PlayMP3WithCallback                               ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+PrintChar                                         stdio\printf.o
+PutChar                                           stdio\printf.o
+PutHexa                                           stdio\printf.o
+PutSignedInt                                      stdio\printf.o
+PutString                                         stdio\printf.o
+PutUnsignedInt                                    stdio\printf.o
+RCC_AHB1PeriphClockCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\stm32_ub_i2c1.o
+                                                  ub_lib\stm32_ub_button.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+RCC_AHB1PeriphClockLPModeCmd                      cmsis_lib\source\stm32f4xx_rcc.o
+RCC_AHB1PeriphResetCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+                                                  cmsis_lib\source\stm32f4xx_gpio.o
+RCC_AHB2PeriphClockCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+RCC_AHB2PeriphClockLPModeCmd                      cmsis_lib\source\stm32f4xx_rcc.o
+RCC_AHB2PeriphResetCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+RCC_AHB3PeriphClockCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+RCC_AHB3PeriphClockLPModeCmd                      cmsis_lib\source\stm32f4xx_rcc.o
+RCC_AHB3PeriphResetCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+RCC_APB1PeriphClockCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+                                                  ub_lib\stm32_ub_i2c1.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+RCC_APB1PeriphClockLPModeCmd                      cmsis_lib\source\stm32f4xx_rcc.o
+RCC_APB1PeriphResetCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+                                                  ub_lib\stm32_ub_i2c1.o
+                                                  cmsis_lib\source\stm32f4xx_spi.o
+                                                  cmsis_lib\source\stm32f4xx_i2c.o
+RCC_APB2PeriphClockCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+RCC_APB2PeriphClockLPModeCmd                      cmsis_lib\source\stm32f4xx_rcc.o
+RCC_APB2PeriphResetCmd                            cmsis_lib\source\stm32f4xx_rcc.o
+                                                  cmsis_lib\source\stm32f4xx_spi.o
+RCC_AdjustHSICalibrationValue                     cmsis_lib\source\stm32f4xx_rcc.o
+RCC_BackupResetCmd                                cmsis_lib\source\stm32f4xx_rcc.o
+RCC_ClearFlag                                     cmsis_lib\source\stm32f4xx_rcc.o
+RCC_ClearITPendingBit                             cmsis_lib\source\stm32f4xx_rcc.o
+RCC_ClockSecuritySystemCmd                        cmsis_lib\source\stm32f4xx_rcc.o
+RCC_DeInit                                        cmsis_lib\source\stm32f4xx_rcc.o
+RCC_GetClocksFreq                                 cmsis_lib\source\stm32f4xx_rcc.o
+                                                  cmsis_lib\source\stm32f4xx_i2c.o
+RCC_GetFlagStatus                                 cmsis_lib\source\stm32f4xx_rcc.o
+RCC_GetITStatus                                   cmsis_lib\source\stm32f4xx_rcc.o
+RCC_GetSYSCLKSource                               cmsis_lib\source\stm32f4xx_rcc.o
+RCC_HCLKConfig                                    cmsis_lib\source\stm32f4xx_rcc.o
+RCC_HSEConfig                                     cmsis_lib\source\stm32f4xx_rcc.o
+RCC_HSICmd                                        cmsis_lib\source\stm32f4xx_rcc.o
+RCC_I2SCLKConfig                                  cmsis_lib\source\stm32f4xx_rcc.o
+RCC_IRQHandler                                    cmsis_boot\startup\startup_stm32f4xx.o
+RCC_ITConfig                                      cmsis_lib\source\stm32f4xx_rcc.o
+RCC_LSEConfig                                     cmsis_lib\source\stm32f4xx_rcc.o
+RCC_LSICmd                                        cmsis_lib\source\stm32f4xx_rcc.o
+RCC_MCO1Config                                    cmsis_lib\source\stm32f4xx_rcc.o
+RCC_MCO2Config                                    cmsis_lib\source\stm32f4xx_rcc.o
+RCC_PCLK1Config                                   cmsis_lib\source\stm32f4xx_rcc.o
+RCC_PCLK2Config                                   cmsis_lib\source\stm32f4xx_rcc.o
+RCC_PLLCmd                                        cmsis_lib\source\stm32f4xx_rcc.o
+RCC_PLLConfig                                     cmsis_lib\source\stm32f4xx_rcc.o
+RCC_PLLI2SCmd                                     cmsis_lib\source\stm32f4xx_rcc.o
+RCC_PLLI2SConfig                                  cmsis_lib\source\stm32f4xx_rcc.o
+RCC_RTCCLKCmd                                     cmsis_lib\source\stm32f4xx_rcc.o
+RCC_RTCCLKConfig                                  cmsis_lib\source\stm32f4xx_rcc.o
+RCC_SYSCLKConfig                                  cmsis_lib\source\stm32f4xx_rcc.o
+RCC_WaitForHSEStartUp                             cmsis_lib\source\stm32f4xx_rcc.o
+RTC_Alarm_IRQHandler                              cmsis_boot\startup\startup_stm32f4xx.o
+RTC_WKUP_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+Reset_Handler                                     cmsis_boot\startup\startup_stm32f4xx.o
+SDIO_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+SPI1_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+SPI2_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+SPI3_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+SPI_BiDirectionalLineConfig                       cmsis_lib\source\stm32f4xx_spi.o
+SPI_CalculateCRC                                  cmsis_lib\source\stm32f4xx_spi.o
+SPI_Cmd                                           cmsis_lib\source\stm32f4xx_spi.o
+SPI_DataSizeConfig                                cmsis_lib\source\stm32f4xx_spi.o
+SPI_GetCRC                                        cmsis_lib\source\stm32f4xx_spi.o
+SPI_GetCRCPolynomial                              cmsis_lib\source\stm32f4xx_spi.o
+SPI_I2S_ClearFlag                                 cmsis_lib\source\stm32f4xx_spi.o
+SPI_I2S_ClearITPendingBit                         cmsis_lib\source\stm32f4xx_spi.o
+SPI_I2S_DMACmd                                    cmsis_lib\source\stm32f4xx_spi.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+SPI_I2S_DeInit                                    cmsis_lib\source\stm32f4xx_spi.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+SPI_I2S_GetFlagStatus                             cmsis_lib\source\stm32f4xx_spi.o
+SPI_I2S_GetITStatus                               cmsis_lib\source\stm32f4xx_spi.o
+SPI_I2S_ITConfig                                  cmsis_lib\source\stm32f4xx_spi.o
+SPI_I2S_ReceiveData                               cmsis_lib\source\stm32f4xx_spi.o
+SPI_I2S_SendData                                  cmsis_lib\source\stm32f4xx_spi.o
+SPI_Init                                          cmsis_lib\source\stm32f4xx_spi.o
+SPI_NSSInternalSoftwareConfig                     cmsis_lib\source\stm32f4xx_spi.o
+SPI_SSOutputCmd                                   cmsis_lib\source\stm32f4xx_spi.o
+SPI_StructInit                                    cmsis_lib\source\stm32f4xx_spi.o
+SPI_TIModeCmd                                     cmsis_lib\source\stm32f4xx_spi.o
+SPI_TransmitCRC                                   cmsis_lib\source\stm32f4xx_spi.o
+SVC_Handler                                       cmsis_boot\startup\startup_stm32f4xx.o
+SetMP3Buffer                                      ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+StartMP3Buffer                                    ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+SysTick_CLKSourceConfig                           cmsis_lib\source\misc.o
+SysTick_Handler                                   cmsis_boot\startup\startup_stm32f4xx.o
+SystemCoreClock                                   cmsis_boot\system_stm32f4xx.o
+SystemCoreClockUpdate                             cmsis_boot\system_stm32f4xx.o
+SystemInit                                        cmsis_boot\system_stm32f4xx.o
+                                                  main.o
+TAMP_STAMP_IRQHandler                             cmsis_boot\startup\startup_stm32f4xx.o
+TIM1_BRK_TIM9_IRQHandler                          cmsis_boot\startup\startup_stm32f4xx.o
+TIM1_CC_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+TIM1_TRG_COM_TIM11_IRQHandler                     cmsis_boot\startup\startup_stm32f4xx.o
+TIM1_UP_TIM10_IRQHandler                          cmsis_boot\startup\startup_stm32f4xx.o
+TIM2_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+TIM3_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+TIM4_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+TIM5_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+TIM6_DAC_IRQHandler                               cmsis_boot\startup\startup_stm32f4xx.o
+TIM7_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+TIM8_BRK_TIM12_IRQHandler                         cmsis_boot\startup\startup_stm32f4xx.o
+TIM8_CC_IRQHandler                                cmsis_boot\startup\startup_stm32f4xx.o
+TIM8_TRG_COM_TIM14_IRQHandler                     cmsis_boot\startup\startup_stm32f4xx.o
+TIM8_UP_TIM13_IRQHandler                          cmsis_boot\startup\startup_stm32f4xx.o
+TryMP3Buffer                                      ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UART4_IRQHandler                                  cmsis_boot\startup\startup_stm32f4xx.o
+UART5_IRQHandler                                  cmsis_boot\startup\startup_stm32f4xx.o
+UB_ATADrive_CheckMedia                            ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+UB_ATADrive_Init                                  ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.o
+                                                  ub_lib\stm32_ub_fatfs.o
+UB_AUDIO_SetI2SClock                              ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UB_Button_Init                                    ub_lib\stm32_ub_button.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+UB_Button_Read                                    ub_lib\stm32_ub_button.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+UB_CS43L22_GetMP3Err                              ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UB_CS43L22_InitMP3                                ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+UB_CS43L22_PauseMP3                               ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UB_CS43L22_PlayMP3Do                              ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+UB_CS43L22_PlayMP3Loop                            ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UB_CS43L22_PlayMP3Single                          ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+UB_CS43L22_ResumeMP3                              ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UB_CS43L22_SetVolumeMP3                           ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UB_CS43L22_StopMP3                                ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+UB_Fatfs_CheckMedia                               ub_lib\stm32_ub_fatfs.o
+UB_Fatfs_CloseFile                                ub_lib\stm32_ub_fatfs.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UB_Fatfs_DelFile                                  ub_lib\stm32_ub_fatfs.o
+UB_Fatfs_FileSize                                 ub_lib\stm32_ub_fatfs.o
+UB_Fatfs_Init                                     ub_lib\stm32_ub_fatfs.o
+UB_Fatfs_Mount                                    ub_lib\stm32_ub_fatfs.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+UB_Fatfs_OpenFile                                 ub_lib\stm32_ub_fatfs.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+UB_Fatfs_ReadBlock                                ub_lib\stm32_ub_fatfs.o
+UB_Fatfs_ReadString                               ub_lib\stm32_ub_fatfs.o
+UB_Fatfs_UnMount                                  ub_lib\stm32_ub_fatfs.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+UB_Fatfs_WriteBlock                               ub_lib\stm32_ub_fatfs.o
+UB_Fatfs_WriteString                              ub_lib\stm32_ub_fatfs.o
+UB_I2C1_Delay                                     ub_lib\stm32_ub_i2c1.o
+UB_I2C1_Init                                      ub_lib\stm32_ub_i2c1.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+UB_I2C1_ReadByte                                  ub_lib\stm32_ub_i2c1.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+UB_I2C1_WriteByte                                 ub_lib\stm32_ub_i2c1.o
+                                                  ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.o
+UB_MP3Player_Do                                   ub_lib\stm32_ub_mp3Player.o
+                                                  main.o
+UB_MP3Player_Init                                 ub_lib\stm32_ub_mp3Player.o
+                                                  main.o
+UB_MP3Player_Start                                ub_lib\stm32_ub_mp3Player.o
+                                                  main.o
+UB_MP3Player_Stop                                 ub_lib\stm32_ub_mp3Player.o
+                                                  main.o
+UB_SDCard_CheckMedia                              ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+UB_SDCard_Init                                    ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.o
+                                                  ub_lib\stm32_ub_fatfs.o
+UB_USBDisk_Init                                   ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                                                  ub_lib\stm32_ub_fatfs.o
+UB_USBDrive_CheckMedia                            ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                                                  ub_lib\stm32_ub_fatfs.o
+UB_USB_MSC_HOST_Do                                ub_lib\stm32_ub_usb_msc_host.o
+                                                  main.o
+UB_USB_MSC_HOST_Init                              ub_lib\stm32_ub_usb_msc_host.o
+                                                  main.o
+USART1_IRQHandler                                 cmsis_boot\startup\startup_stm32f4xx.o
+USART2_IRQHandler                                 cmsis_boot\startup\startup_stm32f4xx.o
+USART3_IRQHandler                                 cmsis_boot\startup\startup_stm32f4xx.o
+USART6_IRQHandler                                 cmsis_boot\startup\startup_stm32f4xx.o
+USBH_Alloc_Channel                                ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_BulkReceiveData                              ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+USBH_BulkSendData                                 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+USBH_ClrFeature                                   ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+USBH_Connect                                      ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_CtlReceiveData                               ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_CtlReq                                       ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_CtlSendData                                  ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_CtlSendSetup                                 ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_DataInBuffer                                 ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+USBH_DataOutBuffer                                ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+USBH_DeAllocate_AllChannel                        ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_DeInit                                       ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_DeviceConnStatus_cb                          ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_Disconnect                                   ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_ErrorHandle                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_Free_Channel                                 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_GetDescriptor                                ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+USBH_Get_CfgDesc                                  ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_Get_DevDesc                                  ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_Get_StringDesc                               ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_HandleControl                                ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_Init                                         ub_lib\usb_msc_host_lolevel\usbh_core.o
+                                                  ub_lib\stm32_ub_usb_msc_host.o
+USBH_InterruptReceiveData                         ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+USBH_InterruptSendData                            ub_lib\usb_msc_host_lolevel\usbh_ioreq.o
+USBH_MSC_BOTXferParam                             ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_MSC_BOT_Abort                                ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+USBH_MSC_CBWData                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+USBH_MSC_CSWData                                  ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+USBH_MSC_DecodeCSW                                ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+USBH_MSC_ErrorHandle                              ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_MSC_HandleBOTXfer                            ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+USBH_MSC_Init                                     ub_lib\usb_msc_host_lolevel\usbh_msc_bot.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_MSC_ModeSense6                               ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_MSC_Param                                    ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_usr.o
+                                                  ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+USBH_MSC_Read10                                   ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+USBH_MSC_ReadCapacity10                           ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_MSC_RequestSense                             ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_MSC_TestUnitReady                            ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+USBH_MSC_Write10                                  ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.o
+                                                  ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+USBH_MSC_cb                                       ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\stm32_ub_usb_msc_host.o
+USBH_Modify_Channel                               ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_OTG_ISR_Handler                              ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+USBH_Open_Channel                                 ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_Process                                      ub_lib\usb_msc_host_lolevel\usbh_core.o
+                                                  ub_lib\stm32_ub_usb_msc_host.o
+USBH_SetAddress                                   ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_SetCfg                                       ub_lib\usb_msc_host_lolevel\usbh_stdreq.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USBH_USR_Configuration_DescAvailable              ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_DeInit                                   ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_DeviceAddressAssigned                    ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_DeviceAttached                           ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_DeviceDisconnected                       ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_DeviceNotSupported                       ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_DeviceSpeedDetected                      ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_Device_DescAvailable                     ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_EnumerationDone                          ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_Init                                     ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_MSC_Application                          ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_Manufacturer_String                      ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_OverCurrentDetected                      ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_Product_String                           ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_ResetDevice                              ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_SerialNum_String                         ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_UnrecoveredError                         ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USBH_USR_UserInput                                ub_lib\usb_msc_host_lolevel\usbh_usr.o
+USB_Host                                          ub_lib\stm32_ub_usb_msc_host.o
+                                                  ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+USB_MSC_HOST_STATUS                               ub_lib\usb_msc_host_lolevel\usbh_usr.o
+                                                  ub_lib\stm32_ub_usb_msc_host.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+                                                  ub_lib\stm32_ub_fatfs.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                                                  ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                                                  ub_lib\fatfs\diskio.o
+                                                  main.o
+USB_OTG_BSP_ConfigVBUS                            ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_BSP_DriveVBUS                             ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_BSP_EnableInterrupt                       ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USB_OTG_BSP_Init                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_core.o
+USB_OTG_BSP_mDelay                                ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_BSP_uDelay                                ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_Core                                      ub_lib\stm32_ub_usb_msc_host.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_bsp.o
+                                                  ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+USB_OTG_CoreInit                                  ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_CoreInitHost                              ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_DisableGlobalInt                          ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_DriveVbus                                 ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_EnableGlobalInt                           ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_EnableHostInt                             ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_FlushRxFifo                               ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_FlushTxFifo                               ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_GetMode                                   ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_HC_DoPing                                 ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+USB_OTG_HC_Halt                                   ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_msc_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+USB_OTG_HC_Init                                   ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usbh_hcs.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_HC_StartXfer                              ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_InitFSLSPClkSel                           ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+USB_OTG_IsDeviceMode                              ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_IsEvenFrame                               ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_IsHostMode                                ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+USB_OTG_ReadCoreItr                               ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+USB_OTG_ReadHPRT0                                 ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_ReadHostAllChannels_intr                  ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+USB_OTG_ReadOtgItr                                ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_ReadPacket                                ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+USB_OTG_ResetPort                                 ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_SelectCore                                ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_SetCurrentMode                            ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd.o
+USB_OTG_StopHost                                  ub_lib\usb_msc_host_lolevel\usb_core.o
+USB_OTG_WritePacket                               ub_lib\usb_msc_host_lolevel\usb_core.o
+                                                  ub_lib\usb_msc_host_lolevel\usb_hcd_int.o
+USB_disk_initialize                               ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                                                  ub_lib\fatfs\diskio.o
+USB_disk_ioctl                                    ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                                                  ub_lib\fatfs\diskio.o
+USB_disk_read                                     ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                                                  ub_lib\fatfs\diskio.o
+USB_disk_status                                   ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                                                  ub_lib\fatfs\diskio.o
+USB_disk_write                                    ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.o
+                                                  ub_lib\fatfs\diskio.o
+USR_Callbacks                                     ub_lib\usb_msc_host_lolevel\usbh_usr.o
+                                                  ub_lib\stm32_ub_usb_msc_host.o
+UsageFault_Handler                                cmsis_boot\startup\startup_stm32f4xx.o
+WWDG_IRQHandler                                   cmsis_boot\startup\startup_stm32f4xx.o
+_close                                            syscalls\syscalls.o
+_ebss                                             cmsis_boot\startup\startup_stm32f4xx.o
+_edata                                            cmsis_boot\startup\startup_stm32f4xx.o
+_end                                              syscalls\syscalls.o
+_fstat                                            syscalls\syscalls.o
+_impure_ptr                                       stdio\printf.o
+_isatty                                           syscalls\syscalls.o
+_lseek                                            syscalls\syscalls.o
+_read                                             syscalls\syscalls.o
+_sbrk                                             syscalls\syscalls.o
+_sbss                                             cmsis_boot\startup\startup_stm32f4xx.o
+_sdata                                            cmsis_boot\startup\startup_stm32f4xx.o
+_sidata                                           cmsis_boot\startup\startup_stm32f4xx.o
+_write                                            syscalls\syscalls.o
+abort                                             syscalls\syscalls.o
+akt_mp3_nr                                        ub_lib\stm32_ub_mp3Player.o
+clust2sect                                        ub_lib\fatfs\ff.o
+cs43l22_status                                    ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+disk_initialize                                   ub_lib\fatfs\diskio.o
+                                                  ub_lib\fatfs\ff.o
+disk_ioctl                                        ub_lib\fatfs\diskio.o
+                                                  ub_lib\fatfs\ff.o
+disk_read                                         ub_lib\fatfs\diskio.o
+                                                  ub_lib\fatfs\ff.o
+disk_status                                       ub_lib\fatfs\diskio.o
+                                                  ub_lib\fatfs\ff.o
+disk_write                                        ub_lib\fatfs\diskio.o
+                                                  ub_lib\fatfs\ff.o
+f_chmod                                           ub_lib\fatfs\ff.o
+f_close                                           ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+f_getfree                                         ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+f_gets                                            ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+f_lseek                                           ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+f_mkdir                                           ub_lib\fatfs\ff.o
+f_mount                                           ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+f_open                                            ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+f_opendir                                         ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+f_printf                                          ub_lib\fatfs\ff.o
+f_putc                                            ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+f_puts                                            ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+f_read                                            ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+f_readdir                                         ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+f_rename                                          ub_lib\fatfs\ff.o
+f_stat                                            ub_lib\fatfs\ff.o
+f_sync                                            ub_lib\fatfs\ff.o
+f_truncate                                        ub_lib\fatfs\ff.o
+f_unlink                                          ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+f_utime                                           ub_lib\fatfs\ff.o
+f_write                                           ub_lib\fatfs\ff.o
+                                                  ub_lib\stm32_ub_fatfs.o
+fprintf                                           stdio\printf.o
+fputc                                             stdio\printf.o
+fputs                                             stdio\printf.o
+g_pfnVectors                                      cmsis_boot\startup\startup_stm32f4xx.o
+get_fat                                           ub_lib\fatfs\ff.o
+get_fattime                                       ub_lib\fatfs\diskio.o
+                                                  ub_lib\fatfs\ff.o
+link                                              syscalls\syscalls.o
+main                                              main.o
+                                                  cmsis_boot\startup\startup_stm32f4xx.o
+memcpy                                            c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memcpy-stub.o)
+                                                  ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+                                                  cmsis_boot\startup\startup_stm32f4xx.o
+memmove                                           c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memmove.o)
+                                                  ub_lib\helix_mp3\mp3dec.o
+memset                                            c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+                                                  ub_lib\helix_mp3\real\huffman.o
+                                                  ub_lib\helix_mp3\real\buffers.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+                                                  ub_lib\fatfs\ff.o
+                                                  stdio\printf.o
+mp3_buf                                           ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+myMP3File                                         ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+my_mp3                                            ub_lib\stm32_ub_cs43l22_mp3_fatfs.o
+printf                                            stdio\printf.o
+pulStack                                          cmsis_boot\startup\startup_stm32f4xx.o
+put_fat                                           ub_lib\fatfs\ff.o
+puts                                              stdio\printf.o
+r                                                 stdio\printf.o
+snprintf                                          stdio\printf.o
+sprintf                                           stdio\printf.o
+                                                  ub_lib\stm32_ub_mp3Player.o
+strchr                                            c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strchr.o)
+                                                  c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+strcmp                                            c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strcmp.o)
+                                                  ub_lib\stm32_ub_mp3Player.o
+strrchr                                           c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-strrchr.o)
+                                                  ub_lib\stm32_ub_mp3Player.o
+vfprintf                                          stdio\printf.o
+vprintf                                           stdio\printf.o
+vsnprintf                                         stdio\printf.o
+vsprintf                                          stdio\printf.o
+xmp3fixpt_AllocateBuffers                         ub_lib\helix_mp3\real\buffers.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_CalcBitsUsed                            ub_lib\helix_mp3\real\bitstream.o
+                                                  ub_lib\helix_mp3\real\scalfact.o
+xmp3fixpt_CheckPadBit                             ub_lib\helix_mp3\real\bitstream.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_DecodeHuffman                           ub_lib\helix_mp3\real\huffman.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_DequantChannel                          ub_lib\helix_mp3\real\dqchan.o
+                                                  ub_lib\helix_mp3\real\dequant.o
+xmp3fixpt_Dequantize                              ub_lib\helix_mp3\real\dequant.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_FDCT32                                  ub_lib\helix_mp3\real\dct32.o
+                                                  ub_lib\helix_mp3\real\subband.o
+xmp3fixpt_FreeBuffers                             ub_lib\helix_mp3\real\buffers.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_GetBits                                 ub_lib\helix_mp3\real\bitstream.o
+                                                  ub_lib\helix_mp3\real\scalfact.o
+xmp3fixpt_IMDCT                                   ub_lib\helix_mp3\real\imdct.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_ISFIIP                                  ub_lib\helix_mp3\real\trigtabs_fixpt.o
+                                                  ub_lib\helix_mp3\real\stproc.o
+xmp3fixpt_ISFMpeg1                                ub_lib\helix_mp3\real\trigtabs_fixpt.o
+                                                  ub_lib\helix_mp3\real\stproc.o
+xmp3fixpt_ISFMpeg2                                ub_lib\helix_mp3\real\trigtabs_fixpt.o
+                                                  ub_lib\helix_mp3\real\stproc.o
+xmp3fixpt_IntensityProcMPEG1                      ub_lib\helix_mp3\real\stproc.o
+                                                  ub_lib\helix_mp3\real\dequant.o
+xmp3fixpt_IntensityProcMPEG2                      ub_lib\helix_mp3\real\stproc.o
+                                                  ub_lib\helix_mp3\real\dequant.o
+xmp3fixpt_MidSideProc                             ub_lib\helix_mp3\real\stproc.o
+                                                  ub_lib\helix_mp3\real\dequant.o
+xmp3fixpt_PolyphaseMono                           ub_lib\helix_mp3\real\polyphase.o
+                                                  ub_lib\helix_mp3\real\subband.o
+xmp3fixpt_PolyphaseStereo                         ub_lib\helix_mp3\real\polyphase.o
+                                                  ub_lib\helix_mp3\real\subband.o
+xmp3fixpt_SetBitstreamPointer                     ub_lib\helix_mp3\real\bitstream.o
+                                                  ub_lib\helix_mp3\real\scalfact.o
+xmp3fixpt_Subband                                 ub_lib\helix_mp3\real\subband.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_UnpackFrameHeader                       ub_lib\helix_mp3\real\bitstream.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_UnpackScaleFactors                      ub_lib\helix_mp3\real\scalfact.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_UnpackSideInfo                          ub_lib\helix_mp3\real\bitstream.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_bitrateTab                              ub_lib\helix_mp3\mp3tabs.o
+                                                  ub_lib\helix_mp3\real\bitstream.o
+xmp3fixpt_bitsPerSlotTab                          ub_lib\helix_mp3\mp3tabs.o
+xmp3fixpt_coef32                                  ub_lib\helix_mp3\real\trigtabs_fixpt.o
+xmp3fixpt_csa                                     ub_lib\helix_mp3\real\trigtabs_fixpt.o
+                                                  ub_lib\helix_mp3\real\imdct.o
+xmp3fixpt_huffTabLookup                           ub_lib\helix_mp3\real\hufftabs.o
+                                                  ub_lib\helix_mp3\real\huffman.o
+xmp3fixpt_huffTabOffset                           ub_lib\helix_mp3\real\hufftabs.o
+                                                  ub_lib\helix_mp3\real\huffman.o
+xmp3fixpt_huffTable                               ub_lib\helix_mp3\real\hufftabs.o
+                                                  ub_lib\helix_mp3\real\huffman.o
+xmp3fixpt_imdctWin                                ub_lib\helix_mp3\real\trigtabs_fixpt.o
+                                                  ub_lib\helix_mp3\real\imdct.o
+xmp3fixpt_polyCoef                                ub_lib\helix_mp3\real\trigtabs_fixpt.o
+                                                  ub_lib\helix_mp3\real\subband.o
+xmp3fixpt_quadTabMaxBits                          ub_lib\helix_mp3\real\hufftabs.o
+                                                  ub_lib\helix_mp3\real\huffman.o
+xmp3fixpt_quadTabOffset                           ub_lib\helix_mp3\real\hufftabs.o
+                                                  ub_lib\helix_mp3\real\huffman.o
+xmp3fixpt_quadTable                               ub_lib\helix_mp3\real\hufftabs.o
+                                                  ub_lib\helix_mp3\real\huffman.o
+xmp3fixpt_samplerateTab                           ub_lib\helix_mp3\mp3tabs.o
+                                                  ub_lib\helix_mp3\real\bitstream.o
+xmp3fixpt_samplesPerFrameTab                      ub_lib\helix_mp3\mp3tabs.o
+                                                  ub_lib\helix_mp3\real\bitstream.o
+                                                  ub_lib\helix_mp3\mp3dec.o
+xmp3fixpt_sfBandTable                             ub_lib\helix_mp3\mp3tabs.o
+                                                  ub_lib\helix_mp3\real\bitstream.o
+xmp3fixpt_sideBytesTab                            ub_lib\helix_mp3\mp3tabs.o
+                                                  ub_lib\helix_mp3\real\bitstream.o
+xmp3fixpt_slotTab                                 ub_lib\helix_mp3\mp3tabs.o
+                                                  ub_lib\helix_mp3\real\bitstream.o
+xmp3fixpt_uniqueIDTab                             ub_lib\helix_mp3\real\trigtabs_fixpt.o

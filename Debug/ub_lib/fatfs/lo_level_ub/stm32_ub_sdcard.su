@@ -1,0 +1,7 @@
+stm32_ub_sdcard.c:27:6:UB_SDCard_Init	0	static
+stm32_ub_sdcard.c:39:9:UB_SDCard_CheckMedia	0	static
+stm32_ub_sdcard.c:52:5:MMC_disk_initialize	0	static
+stm32_ub_sdcard.c:66:5:MMC_disk_status	0	static
+stm32_ub_sdcard.c:80:5:MMC_disk_read	0	static
+stm32_ub_sdcard.c:94:5:MMC_disk_write	0	static
+stm32_ub_sdcard.c:108:5:MMC_disk_ioctl	0	static

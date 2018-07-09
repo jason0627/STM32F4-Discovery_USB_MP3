@@ -1,0 +1,17 @@
+printf.c:18:6:PrintChar	0	static
+printf.c:40:12:PutChar	0	static
+printf.c:54:12:PutString	4	static
+printf.c:77:12:PutUnsignedInt	32	static
+printf.c:123:12:PutSignedInt	32	static
+printf.c:202:12:PutHexa	40	static
+stdio.h:268:5:vsnprintf	72	static
+stdio.h:266:5:snprintf	16	static
+stdio.h:210:5:vsprintf	0	static
+stdio.h:206:5:vfprintf	112	static
+stdio.h:208:5:vprintf	120	static
+stdio.h:196:5:fprintf	116	static
+stdio.h:200:5:printf	120	static
+stdio.h:244:5:sprintf	12	static
+stdio.h:221:5:puts	0	static
+stdio.h:214:5:fputc	0	static
+stdio.h:215:5:fputs	4	static

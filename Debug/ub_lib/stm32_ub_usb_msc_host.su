@@ -1,0 +1,2 @@
+stm32_ub_usb_msc_host.c:53:6:UB_USB_MSC_HOST_Init	24	static
+stm32_ub_usb_msc_host.c:72:23:UB_USB_MSC_HOST_Do	8	static

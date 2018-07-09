@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\cmsis_boot -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\fatfs\lo_level_ub -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\cmsis_lib -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\helix_mp3\pub -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\helix_mp3\real -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\fatfs -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\helix_mp3 -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\usb_msc_host_lolevel -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\cmsis -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\cs43l22_lolevel_mp3 -IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\cmsis_lib\include">
+      <target file="syscalls.o" lastModified="140a5db789c">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="140a5508041"/>
+      </target>
+      <target file="scalfact.o" lastModified="140a5db624f">
+         <source file="..\..\..\ub_lib\helix_mp3\real\scalfact.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="usbh_usr.o" lastModified="140a5db7996">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_usr.c" lastModified="13e043ca044"/>
+      </target>
+      <target file="misc.o" lastModified="140a5db86fe">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="140a524fae0"/>
+      </target>
+      <target file="imdct.o" lastModified="140a5db6ac7">
+         <source file="..\..\..\ub_lib\helix_mp3\real\imdct.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="dequant.o" lastModified="140a5db6674">
+         <source file="..\..\..\ub_lib\helix_mp3\real\dequant.c" lastModified="13881b0c510"/>
+      </target>
+      <target file="polyphase.o" lastModified="140a5db8855">
+         <source file="..\..\..\ub_lib\helix_mp3\real\polyphase.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="diskio.o" lastModified="140a5db6ce9">
+         <source file="..\..\..\ub_lib\fatfs\diskio.c" lastModified="13df8a51040"/>
+      </target>
+      <target file="cs43l22_lolevel_mp3.o" lastModified="140a5db736e">
+         <source file="..\..\..\ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.c" lastModified="14072b3c470"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="140a5db74f4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="140a51b0bd4"/>
+      </target>
+      <target file="stm32_ub_atadrive.o" lastModified="140a5db7d1f">
+         <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.c" lastModified="13d2a4a01b0"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="140a5db7a13">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.c" lastModified="13e04369ed5"/>
+      </target>
+      <target file="mp3tabs.o" lastModified="140a5db6c0f">
+         <source file="..\..\..\ub_lib\helix_mp3\mp3tabs.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="usbh_msc_scsi.o" lastModified="140a5db77f1">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.c" lastModified="13e03e07eec"/>
+      </target>
+      <target file="huffman.o" lastModified="140a5db7c25">
+         <source file="..\..\..\ub_lib\helix_mp3\real\huffman.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="stm32_ub_i2c1.o" lastModified="140a5db6329">
+         <source file="..\..\..\ub_lib\stm32_ub_i2c1.c" lastModified="14072bf6991"/>
+      </target>
+      <target file="stm32_ub_usb_msc_host.o" lastModified="140a5db6387">
+         <source file="..\..\..\ub_lib\stm32_ub_usb_msc_host.c" lastModified="13e0448c2bb"/>
+      </target>
+      <target file="buffers.o" lastModified="140a5db7cd1">
+         <source file="..\..\..\ub_lib\helix_mp3\real\buffers.c" lastModified="1388af06a40"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="140a5db7014">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="140a51b0bfc"/>
+      </target>
+      <target file="bitstream.o" lastModified="140a5db6606">
+         <source file="..\..\..\ub_lib\helix_mp3\real\bitstream.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="usb_hcd.o" lastModified="140a5db827c">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd.c" lastModified="13e04395224"/>
+      </target>
+      <target file="dct32.o" lastModified="140a5db84fb">
+         <source file="..\..\..\ub_lib\helix_mp3\real\dct32.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="stm32_ub_fatfs.o" lastModified="140a5db6f59">
+         <source file="..\..\..\ub_lib\stm32_ub_fatfs.c" lastModified="13e042f746b"/>
+      </target>
+      <target file="mp3dec.o" lastModified="140a5db6e6f">
+         <source file="..\..\..\ub_lib\helix_mp3\mp3dec.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="trigtabs_fixpt.o" lastModified="140a5db7c73">
+         <source file="..\..\..\ub_lib\helix_mp3\real\trigtabs_fixpt.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="stm32_ub_mp3Player.o" lastModified="140a62d8675">
+         <source file="..\..\..\ub_lib\stm32_ub_mp3Player.c" lastModified="140a62c76ce"/>
+      </target>
+      <target file="usb_hcd_int.o" lastModified="140a5db88f1">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd_int.c" lastModified="13e0439de1f"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="140a5db6d18">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="140a51b0bde"/>
+      </target>
+      <target file="dqchan.o" lastModified="140a5db6126">
+         <source file="..\..\..\ub_lib\helix_mp3\real\dqchan.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="140a5db7929">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="140a5312f6c"/>
+      </target>
+      <target file="hufftabs.o" lastModified="140a5db66d1">
+         <source file="..\..\..\ub_lib\helix_mp3\real\hufftabs.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="usbh_msc_bot.o" lastModified="140a5db8318">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.c" lastModified="13e03dfac05"/>
+      </target>
+      <target file="usbh_stdreq.o" lastModified="140a5db6bc1">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.c" lastModified="13df926c360"/>
+      </target>
+      <target file="usbh_core.o" lastModified="140a5db742a">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.c" lastModified="13df92c5910"/>
+      </target>
+      <target file="printf.o" lastModified="140a5db71c9">
+         <source file="..\..\..\stdio\printf.c" lastModified="140a5508032"/>
+      </target>
+      <target file="stm32_ub_cs43l22_mp3_fatfs.o" lastModified="140a622f6ca">
+         <source file="..\..\..\ub_lib\stm32_ub_cs43l22_mp3_fatfs.c" lastModified="140a61d8bd9"/>
+      </target>
+      <target file="stproc.o" lastModified="140a5db7b1c">
+         <source file="..\..\..\ub_lib\helix_mp3\real\stproc.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="usb_core.o" lastModified="140a5db605c">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.c" lastModified="13e03dbf4c8"/>
+      </target>
+      <target file="subband.o" lastModified="140a5db6c6c">
+         <source file="..\..\..\ub_lib\helix_mp3\real\subband.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="140a5db85a7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="140a530dd9c"/>
+      </target>
+      <target file="stm32_ub_button.o" lastModified="140a5db72a4">
+         <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="13ce31e83bb"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="140a5db83b4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="140a530feaf"/>
+      </target>
+      <target file="ff.o" lastModified="140a5db821e">
+         <source file="..\..\..\ub_lib\fatfs\ff.c" lastModified="13c69a9feb0"/>
+      </target>
+      <target file="main.o" lastModified="140a62d85ba">
+         <source file="..\..\..\main.c" lastModified="140a62d82cd"/>
+      </target>
+      <target file="usbh_msc_core.o" lastModified="140a5db7256">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.c" lastModified="13e03e02153"/>
+      </target>
+      <target file="usbh_ioreq.o" lastModified="140a5db8624">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.c" lastModified="13df91c7a90"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="140a5db784e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="140a51b0be8"/>
+      </target>
+      <target file="usbh_hcs.o" lastModified="140a5db6b34">
+         <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_hcs.c" lastModified="13df91a6f20"/>
+      </target>
+      <target file="stm32_ub_usbdisk.o" lastModified="140a5db7571">
+         <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.c" lastModified="13e04121860"/>
+      </target>
+      <target file="stm32_ub_sdcard.o" lastModified="140a5db7478">
+         <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.c" lastModified="13df8a04d80"/>
+      </target>
+   </processor>
+</history>

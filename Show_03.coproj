@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G" name="Show_03">
+  <Target name="Show_03" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="344" chipName="STM32F407VG" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="3"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F407VG"/>
+          <Define name="STM32F4XX"/>
+          <Define name="USE_STDPERIPH_DRIVER"/>
+          <Define name="__ASSEMBLY__"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00100000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00020000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="0x00010000" startValue="0x10000000"/>
+        </MemoryAreas>
+        <LocateLinkFile path="c:/coocox/coide/configuration/programdata/show_03/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="Show_03"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F4xx_1024.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="30" name="C Library" path="" type="2"/>
+    <Component id="31" name="Retarget printf" path="" type="2"/>
+    <Component id="54" name="M4 CMSIS Core" path="" type="2"/>
+    <Component id="500" name="CMSIS BOOT" path="" type="2"/>
+    <Component id="501" name="RCC" path="" type="2"/>
+    <Component id="504" name="GPIO" path="" type="2"/>
+    <Component id="509" name="SPI" path="" type="2"/>
+    <Component id="510" name="I2C" path="" type="2"/>
+    <Component id="511" name="DMA" path="" type="2"/>
+    <Component id="524" name="MISC" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="ub_lib/usb_lolevel/usb_hcd_int.h" path="ub_lib/usb_msc_host_lolevel/usb_hcd_int.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_conf.h" path="ub_lib/usb_msc_host_lolevel/usbh_conf.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_core.h" path="ub_lib/usb_msc_host_lolevel/usb_core.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_bsp.h" path="ub_lib/usb_msc_host_lolevel/usb_bsp.h" type="1"/>
+    <File name="ub_lib/helix/platform.h" path="ub_lib/helix_mp3/platform.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_core.c" path="ub_lib/usb_msc_host_lolevel/usbh_core.c" type="1"/>
+    <File name="ub_lib/stm32_ub_mp3Player.c" path="ub_lib/stm32_ub_mp3Player.c" type="1"/>
+    <File name="ub_lib/helix/real/dqchan.c" path="ub_lib/helix_mp3/real/dqchan.c" type="1"/>
+    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
+    <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
+    <File name="ub_lib/helix/real/assembly.h" path="ub_lib/helix_mp3/real/assembly.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_spi.c" path="cmsis_lib/source/stm32f4xx_spi.c" type="1"/>
+    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="ub_lib/fatfs/lolevel/stm32_ub_usbdisk.h" path="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.h" type="1"/>
+    <File name="ub_lib/helix/real/dct32.c" path="ub_lib/helix_mp3/real/dct32.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_ioreq.h" path="ub_lib/usb_msc_host_lolevel/usbh_ioreq.h" type="1"/>
+    <File name="ub_lib/helix/mp3tabs.c" path="ub_lib/helix_mp3/mp3tabs.c" type="1"/>
+    <File name="ub_lib/helix/real/imdct.c" path="ub_lib/helix_mp3/real/imdct.c" type="1"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="ub_lib/helix/pub/statname.h" path="ub_lib/helix_mp3/pub/statname.h" type="1"/>
+    <File name="ub_lib/helix/real/stproc.c" path="ub_lib/helix_mp3/real/stproc.c" type="1"/>
+    <File name="ub_lib/helix/real/bitstream.c" path="ub_lib/helix_mp3/real/bitstream.c" type="1"/>
+    <File name="ub_lib/stm32_ub_fatfs.c" path="ub_lib/stm32_ub_fatfs.c" type="1"/>
+    <File name="ub_lib/fatfs/ff.h" path="ub_lib/fatfs/ff.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_ioreq.c" path="ub_lib/usb_msc_host_lolevel/usbh_ioreq.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_msc_scsi.h" path="ub_lib/usb_msc_host_lolevel/usbh_msc_scsi.h" type="1"/>
+    <File name="stdio/printf.c" path="stdio/printf.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
+    <File name="ub_lib/stm32_ub_mp3Player.h" path="ub_lib/stm32_ub_mp3Player.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_hcd_int.c" path="ub_lib/usb_msc_host_lolevel/usb_hcd_int.c" type="1"/>
+    <File name="ub_lib/fatfs" path="" type="2"/>
+    <File name="ub_lib/cs43l22_lolevel" path="" type="2"/>
+    <File name="stdio" path="" type="2"/>
+    <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
+    <File name="ub_lib/stm32_ub_usb_msc_host.c" path="ub_lib/stm32_ub_usb_msc_host.c" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="ub_lib/stm32_ub_i2c1.c" path="ub_lib/stm32_ub_i2c1.c" type="1"/>
+    <File name="ub_lib/fatfs/diskio.c" path="ub_lib/fatfs/diskio.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_regs.h" path="ub_lib/usb_msc_host_lolevel/usb_regs.h" type="1"/>
+    <File name="ub_lib" path="" type="2"/>
+    <File name="ub_lib/helix/pub/mp3dec.h" path="ub_lib/helix_mp3/pub/mp3dec.h" type="1"/>
+    <File name="ub_lib/stm32_ub_fatfs.h" path="ub_lib/stm32_ub_fatfs.h" type="1"/>
+    <File name="ub_lib/fatfs/lolevel" path="" type="2"/>
+    <File name="ub_lib/helix/real/subband.c" path="ub_lib/helix_mp3/real/subband.c" type="1"/>
+    <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_hcd.c" path="ub_lib/usb_msc_host_lolevel/usb_hcd.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_spi.h" path="cmsis_lib/include/stm32f4xx_spi.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_stdreq.c" path="ub_lib/usb_msc_host_lolevel/usbh_stdreq.c" type="1"/>
+    <File name="ub_lib/stm32_ub_button.c" path="ub_lib/stm32_ub_button.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_stdreq.h" path="ub_lib/usb_msc_host_lolevel/usbh_stdreq.h" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="ub_lib/usb_lolevel/usb_hcd.h" path="ub_lib/usb_msc_host_lolevel/usb_hcd.h" type="1"/>
+    <File name="cmsis_lib" path="" type="2"/>
+    <File name="ub_lib/stm32_ub_i2c1.h" path="ub_lib/stm32_ub_i2c1.h" type="1"/>
+    <File name="ub_lib/usb_lolevel" path="" type="2"/>
+    <File name="ub_lib/stm32_ub_usb_msc_host.h" path="ub_lib/stm32_ub_usb_msc_host.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_core.h" path="ub_lib/usb_msc_host_lolevel/usbh_core.h" type="1"/>
+    <File name="ub_lib/helix/real/coder.h" path="ub_lib/helix_mp3/real/coder.h" type="1"/>
+    <File name="cmsis_lib/include/misc.h" path="cmsis_lib/include/misc.h" type="1"/>
+    <File name="ub_lib/helix/real/huffman.c" path="ub_lib/helix_mp3/real/huffman.c" type="1"/>
+    <File name="ub_lib/helix/real/polyphase.c" path="ub_lib/helix_mp3/real/polyphase.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_core.c" path="ub_lib/usb_msc_host_lolevel/usb_core.c" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_gpio.c" path="cmsis_lib/source/stm32f4xx_gpio.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_i2c.h" path="cmsis_lib/include/stm32f4xx_i2c.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_dma.c" path="cmsis_lib/source/stm32f4xx_dma.c" type="1"/>
+    <File name="ub_lib/fatfs/lolevel/stm32_ub_sdcard.h" path="ub_lib/fatfs/lo_level_ub/stm32_ub_sdcard.h" type="1"/>
+    <File name="ub_lib/helix/real/trigtabs_fixpt.c" path="ub_lib/helix_mp3/real/trigtabs_fixpt.c" type="1"/>
+    <File name="ub_lib/stm32_ub_cs43l22_mp3_fatfs.h" path="ub_lib/stm32_ub_cs43l22_mp3_fatfs.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="ub_lib/helix/mp3dec.c" path="ub_lib/helix_mp3/mp3dec.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_hcs.c" path="ub_lib/usb_msc_host_lolevel/usbh_hcs.c" type="1"/>
+    <File name="ub_lib/helix/pub/mp3common.h" path="ub_lib/helix_mp3/pub/mp3common.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_conf.h" path="ub_lib/usb_msc_host_lolevel/usb_conf.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="ub_lib/usb_lolevel/usbh_usr.h" path="ub_lib/usb_msc_host_lolevel/usbh_usr.h" type="1"/>
+    <File name="ub_lib/fatfs/diskio.h" path="ub_lib/fatfs/diskio.h" type="1"/>
+    <File name="ub_lib/cs43l22_lolevel/cs43l22_lolevel_mp3.h" path="ub_lib/cs43l22_lolevel_mp3/cs43l22_lolevel_mp3.h" type="1"/>
+    <File name="ub_lib/stm32_ub_button.h" path="ub_lib/stm32_ub_button.h" type="1"/>
+    <File name="ub_lib/fatfs/ffconf.h" path="ub_lib/fatfs/ffconf.h" type="1"/>
+    <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_bsp.c" path="ub_lib/usb_msc_host_lolevel/usb_bsp.c" type="1"/>
+    <File name="cmsis_lib/source/misc.c" path="cmsis_lib/source/misc.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_i2c.c" path="cmsis_lib/source/stm32f4xx_i2c.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_hcs.h" path="ub_lib/usb_msc_host_lolevel/usbh_hcs.h" type="1"/>
+    <File name="cmsis_lib/source" path="" type="2"/>
+    <File name="ub_lib/usb_lolevel/usbh_msc_bot.h" path="ub_lib/usb_msc_host_lolevel/usbh_msc_bot.h" type="1"/>
+    <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
+    <File name="ub_lib/helix/pub" path="" type="2"/>
+    <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
+    <File name="ub_lib/helix/real/dequant.c" path="ub_lib/helix_mp3/real/dequant.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_def.h" path="ub_lib/usb_msc_host_lolevel/usbh_def.h" type="1"/>
+    <File name="ub_lib/helix/real/hufftabs.c" path="ub_lib/helix_mp3/real/hufftabs.c" type="1"/>
+    <File name="ub_lib/cs43l22_lolevel/cs43l22_lolevel_mp3.c" path="ub_lib/cs43l22_lolevel_mp3/cs43l22_lolevel_mp3.c" type="1"/>
+    <File name="ub_lib/helix/real" path="" type="2"/>
+    <File name="ub_lib/usb_lolevel/usbh_msc_core.h" path="ub_lib/usb_msc_host_lolevel/usbh_msc_core.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usb_defines.h" path="ub_lib/usb_msc_host_lolevel/usb_defines.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_msc_scsi.c" path="ub_lib/usb_msc_host_lolevel/usbh_msc_scsi.c" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_msc_bot.c" path="ub_lib/usb_msc_host_lolevel/usbh_msc_bot.c" type="1"/>
+    <File name="ub_lib/fatfs/ff.c" path="ub_lib/fatfs/ff.c" type="1"/>
+    <File name="ub_lib/fatfs/lolevel/stm32_ub_atadrive.c" path="ub_lib/fatfs/lo_level_ub/stm32_ub_atadrive.c" type="1"/>
+    <File name="ub_lib/helix" path="" type="2"/>
+    <File name="ub_lib/fatfs/lolevel/stm32_ub_sdcard.c" path="ub_lib/fatfs/lo_level_ub/stm32_ub_sdcard.c" type="1"/>
+    <File name="ub_lib/fatfs/integer.h" path="ub_lib/fatfs/integer.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_msc_core.c" path="ub_lib/usb_msc_host_lolevel/usbh_msc_core.c" type="1"/>
+    <File name="ub_lib/stm32_ub_cs43l22_mp3_fatfs.c" path="ub_lib/stm32_ub_cs43l22_mp3_fatfs.c" type="1"/>
+    <File name="ub_lib/helix/real/scalfact.c" path="ub_lib/helix_mp3/real/scalfact.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_dma.h" path="cmsis_lib/include/stm32f4xx_dma.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
+    <File name="syscalls" path="" type="2"/>
+    <File name="ub_lib/fatfs/lolevel/stm32_ub_usbdisk.c" path="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.c" type="1"/>
+    <File name="cmsis_lib/include" path="" type="2"/>
+    <File name="ub_lib/fatfs/lolevel/stm32_ub_atadrive.h" path="ub_lib/fatfs/lo_level_ub/stm32_ub_atadrive.h" type="1"/>
+    <File name="ub_lib/helix/pub/mpadecobjfixpt.h" path="ub_lib/helix_mp3/pub/mpadecobjfixpt.h" type="1"/>
+    <File name="ub_lib/usb_lolevel/usbh_usr.c" path="ub_lib/usb_msc_host_lolevel/usbh_usr.c" type="1"/>
+    <File name="ub_lib/helix/real/buffers.c" path="ub_lib/helix_mp3/real/buffers.c" type="1"/>
+  </Files>
+</Project>

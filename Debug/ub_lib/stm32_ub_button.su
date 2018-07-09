@@ -1,0 +1,2 @@
+stm32_ub_button.c:36:6:UB_Button_Init	16	static
+stm32_ub_button.c:59:17:UB_Button_Read	8	static

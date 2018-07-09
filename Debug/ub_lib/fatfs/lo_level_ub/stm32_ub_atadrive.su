@@ -1,0 +1,7 @@
+stm32_ub_atadrive.c:26:6:UB_ATADrive_Init	0	static
+stm32_ub_atadrive.c:37:9:UB_ATADrive_CheckMedia	0	static
+stm32_ub_atadrive.c:50:5:ATA_disk_initialize	0	static
+stm32_ub_atadrive.c:64:5:ATA_disk_status	0	static
+stm32_ub_atadrive.c:78:5:ATA_disk_read	0	static
+stm32_ub_atadrive.c:92:5:ATA_disk_write	0	static
+stm32_ub_atadrive.c:106:5:ATA_disk_ioctl	0	static

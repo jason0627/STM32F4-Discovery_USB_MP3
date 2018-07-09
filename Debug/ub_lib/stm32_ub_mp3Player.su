@@ -1,0 +1,6 @@
+stm32_ub_mp3Player.c:39:6:UB_MP3Player_Init	8	static
+stm32_ub_mp3Player.c:128:6:UB_MP3Player_Stop	0	static
+stm32_ub_mp3Player.c:141:10:P_PlayMP3Nr	128	static
+stm32_ub_mp3Player.c:55:6:UB_MP3Player_Start	8	static
+stm32_ub_mp3Player.c:68:6:UB_MP3Player_Do	16	static
+stm32_ub_mp3Player.c:195:10:P_Check_File_Extension	16	static

@@ -1,0 +1,2 @@
+dqchan.c:132:12:DequantBlock	72	static
+dqchan.c:244:5:xmp3fixpt_DequantChannel	104	static

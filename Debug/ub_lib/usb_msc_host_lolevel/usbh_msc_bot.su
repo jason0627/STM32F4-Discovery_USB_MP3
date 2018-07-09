@@ -1,0 +1,4 @@
+usbh_msc_bot.c:38:6:USBH_MSC_Init	8	static
+usbh_msc_bot.c:53:6:USBH_MSC_HandleBOTXfer	24	static
+usbh_msc_bot.c:333:13:USBH_MSC_BOT_Abort	8	static
+usbh_msc_bot.c:374:9:USBH_MSC_DecodeCSW	8	static

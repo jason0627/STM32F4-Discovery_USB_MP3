@@ -1,0 +1,5 @@
+usbh_msc_core.c:143:20:USBH_MSC_ClassRequest	0	static
+usbh_msc_core.c:124:6:USBH_MSC_InterfaceDeInit	16	static
+usbh_msc_core.c:61:20:USBH_MSC_InterfaceInit	32	static
+usbh_msc_core.c:155:20:USBH_MSC_Handle	32	static
+usbh_msc_core.c:367:6:USBH_MSC_ErrorHandle	0	static

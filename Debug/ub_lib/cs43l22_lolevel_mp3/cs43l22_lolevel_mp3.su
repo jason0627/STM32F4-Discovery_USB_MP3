@@ -1,0 +1,11 @@
+cs43l22_lolevel_mp3.c:40:6:UB_AUDIO_SetI2SClock	0	static
+cs43l22_lolevel_mp3.c:59:10:EVAL_AUDIO_Init	40	static
+cs43l22_lolevel_mp3.c:123:6:EVAL_AUDIO_Play	8	static
+cs43l22_lolevel_mp3.c:140:10:EVAL_AUDIO_PauseResume	16	static
+cs43l22_lolevel_mp3.c:159:6:EVAL_AUDIO_Stop	16	static
+cs43l22_lolevel_mp3.c:167:6:EVAL_AUDIO_StopDMA	8	static
+cs43l22_lolevel_mp3.c:179:10:EVAL_AUDIO_VolumeCtl	16	static
+cs43l22_lolevel_mp3.c:187:6:EVAL_IRQ_ENABLE	0	static
+cs43l22_lolevel_mp3.c:194:6:EVAL_IRQ_DISABLE	0	static
+cs43l22_lolevel_mp3.c:201:6:EVAL_SET_DMA	24	static
+cs43l22_lolevel_mp3.c:528:6:DMA1_Stream7_IRQHandler	0	static

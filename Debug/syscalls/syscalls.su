@@ -1,0 +1,9 @@
+syscalls.c:15:9:_sbrk	0	static
+syscalls.c:30:5:link	0	static
+syscalls.c:34:5:_close	0	static
+syscalls.c:39:5:_fstat	0	static
+syscalls.c:45:5:_isatty	0	static
+syscalls.c:50:5:_lseek	0	static
+syscalls.c:55:5:_read	0	static
+syscalls.c:60:5:_write	0	static
+syscalls.c:65:6:abort	0	static

@@ -1,0 +1,6 @@
+usbh_msc_scsi.c:32:9:USBH_MSC_TestUnitReady	24	static
+usbh_msc_scsi.c:98:9:USBH_MSC_ReadCapacity10	24	static
+usbh_msc_scsi.c:178:9:USBH_MSC_ModeSense6	24	static
+usbh_msc_scsi.c:264:9:USBH_MSC_RequestSense	24	static
+usbh_msc_scsi.c:352:9:USBH_MSC_Write10	40	static
+usbh_msc_scsi.c:432:9:USBH_MSC_Read10	48	static

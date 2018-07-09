@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\cmsis_boot /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\fatfs\lo_level_ub /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\cmsis_lib /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\helix_mp3\pub /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\helix_mp3\real /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\fatfs /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\helix_mp3 /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\usb_msc_host_lolevel /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\cmsis /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\ub_lib\cs43l22_lolevel_mp3 /IF:\Data_Temp_Ordner\stm32f4\prj_ub\Show_Prj\Show_03_MP3_Player\cmsis_lib\include">
+      <source file="..\..\..\ub_lib\stm32_ub_mp3Player.c" lastModified="140a62c76ce">
+         <include file="..\..\..\ub_lib\stm32_ub_mp3Player.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.c" lastModified="13d2a4a01b0">
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\hufftabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\platform.h" lastModified="14044342e69">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.h" lastModified="13df91d64f0">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\ffconf.h" lastModified="13d26eb55f0">
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.c" lastModified="13df91c7a90">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="140a51b0fda">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="140a530dd9c">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\polyphase.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="140a524fade">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\pub\statname.h" lastModified="138811ebe40">
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.h" lastModified="13df92d33d0">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\buffers.c" lastModified="1388af06e28">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.c" lastModified="13e03e07eec">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\huffman.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\integer.h" lastModified="12831ff23a0">
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\ff.h" lastModified="13c69aa0e50">
+         <include file="..\..\..\ub_lib\fatfs\integer.h"/>
+         <include file="..\..\..\ub_lib\fatfs\ffconf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\ff.c" lastModified="13c69aa0298">
+         <include file="..\..\..\ub_lib\fatfs\ff.h"/>
+         <include file="..\..\..\ub_lib\fatfs\diskio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="140a524fae0">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_conf.h" lastModified="13e04377949">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd.h" lastModified="13df910f940">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.h" lastModified="13e03fd1514">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\fatfs\diskio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="140a51b0fc6">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd.c" lastModified="13e04395224">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.c" lastModified="13df8a04d80">
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\imdct.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.h" lastModified="14072840f3e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_i2c1.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="140a530feaf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="140a5312f6c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\subband.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.h" lastModified="13cbea017b4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\mp3tabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.c" lastModified="14072b3c470">
+         <include file="..\..\..\ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.h" lastModified="13e03dcc994">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_regs.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\pub\mp3dec.h" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\platform.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="13ce31e83bb">
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="140a51b0bfc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="140a51b0be8">
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\diskio.h" lastModified="13d26cef450">
+         <include file="..\..\..\ub_lib\fatfs\integer.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.c" lastModified="13e03dbf4c8">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="140a51b0fda">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="140a51b0be8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.h" lastModified="13e03f29500">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\assembly.h" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\platform.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\dct32.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\diskio.c" lastModified="13df8a51040">
+         <include file="..\..\..\ub_lib\fatfs\diskio.h"/>
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.h"/>
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.h"/>
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.c" lastModified="13e04369ed5">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_usr.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd_int.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_msc_host.h" lastModified="13e0447ad29">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_usr.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_fatfs.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_usb_msc_host.c" lastModified="13e0448c2bb">
+         <include file="..\..\..\ub_lib\stm32_ub_usb_msc_host.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.h" lastModified="13df922db60">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_hcs.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.c" lastModified="13e03e02153">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd_int.h" lastModified="13df9135aa0">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="140a5508fe1">
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.h" lastModified="13df927a5f0">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_def.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd_int.c" lastModified="13e0439de1f">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_defines.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd_int.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="140a5508802">
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\dqchan.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.c" lastModified="13df926c360">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="140a51b0fda">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_cs43l22_mp3_fatfs.h" lastModified="140a61c156a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\cs43l22_lolevel_mp3\cs43l22_lolevel_mp3.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\pub\mp3dec.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_fatfs.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_usr.h" lastModified="13e03d6b3ed">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_hcs.h" lastModified="13df91b4210">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.h" lastModified="13e040d31ea">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\fatfs\diskio.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_msc_host.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_defines.h" lastModified="13df90d0970">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="140a51b5620">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\trigtabs_fixpt.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_cs43l22_mp3_fatfs.c" lastModified="140a61d8bd9">
+         <include file="..\..\..\ub_lib\stm32_ub_cs43l22_mp3_fatfs.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_hcs.c" lastModified="13df91a6f20">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_hcs.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_usr.c" lastModified="13e043ca044">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_usr.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_msc_host.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.c" lastModified="13e04121860">
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="140a530feaf">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\dequant.c" lastModified="13881b0c510">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="140a5312f6c">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\bitstream.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="140a51b0bfc">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_i2c1.h" lastModified="13d45e00dd9">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_i2c1.c" lastModified="14072bf6991">
+         <include file="..\..\..\ub_lib\stm32_ub_i2c1.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_conf.h" lastModified="13e03de8c45">
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\coder.h" lastModified="13881b79340">
+         <include file="..\..\..\ub_lib\helix_mp3\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="140a51b0bd4">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="140a51b0fda">
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_fatfs.h" lastModified="13e0400d5c2">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\fatfs\ff.h"/>
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.h"/>
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.h"/>
+         <include file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="140a530dd99">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.h" lastModified="13df9204350">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_fatfs.c" lastModified="13e042f746b">
+         <include file="..\..\..\ub_lib\stm32_ub_fatfs.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_def.h" lastModified="13df918b9a0">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="140a51b0bde">
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\stproc.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.c" lastModified="13e03dfac05">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_def.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="140a51b0bd4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\real\scalfact.c" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\real\coder.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="13cc57aead4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h" lastModified="13df917bfa0">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_def.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\mp3dec.c" lastModified="138811ec228">
+         <include file="..\..\..\ub_lib\helix_mp3\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="140a62d82cd">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_usb_msc_host.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_mp3Player.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.c" lastModified="13df92c5910">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_hcs.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.h"/>
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_regs.h" lastModified="13df9148b50">
+         <include file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\helix_mp3\pub\mp3common.h" lastModified="138811ebe40">
+         <include file="..\..\..\ub_lib\helix_mp3\pub\mp3dec.h"/>
+         <include file="..\..\..\ub_lib\helix_mp3\pub\statname.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\stm32_ub_mp3Player.h" lastModified="140a5c8573b">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_cs43l22_mp3_fatfs.h"/>
+         <include file="..\..\..\ub_lib\stm32_ub_button.h"/>
+      </source>
+      <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.h" lastModified="13d2a4790b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\ub_lib\fatfs\diskio.h"/>
+      </source>
+   </includePath>
+</dependencies>

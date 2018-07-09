@@ -1,0 +1,6 @@
+stm32_ub_i2c1.c:48:6:UB_I2C1_Init	48	static
+stm32_ub_i2c1.c:104:9:UB_I2C1_ReadByte	40	static
+stm32_ub_i2c1.c:192:9:UB_I2C1_WriteByte	48	static
+stm32_ub_i2c1.c:249:6:UB_I2C1_Delay	8	static
+stm32_ub_i2c1.c:261:6:P_I2C1_InitI2C	40	static
+stm32_ub_i2c1.c:285:9:P_I2C1_timeout	40	static

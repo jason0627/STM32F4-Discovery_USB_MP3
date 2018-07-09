@@ -1,0 +1,16 @@
+stm32_ub_cs43l22_mp3_fatfs.c:396:13:MP3CallbackFkt	40	static
+stm32_ub_cs43l22_mp3_fatfs.c:79:13:UB_CS43L22_InitMP3	16	static
+stm32_ub_cs43l22_mp3_fatfs.c:121:11:UB_CS43L22_PlayMP3Single	32	static
+stm32_ub_cs43l22_mp3_fatfs.c:179:11:UB_CS43L22_PlayMP3Loop	32	static
+stm32_ub_cs43l22_mp3_fatfs.c:238:18:UB_CS43L22_PlayMP3Do	32	static
+stm32_ub_cs43l22_mp3_fatfs.c:287:6:UB_CS43L22_PauseMP3	0	static
+stm32_ub_cs43l22_mp3_fatfs.c:299:6:UB_CS43L22_ResumeMP3	0	static
+stm32_ub_cs43l22_mp3_fatfs.c:311:6:UB_CS43L22_StopMP3	8	static
+stm32_ub_cs43l22_mp3_fatfs.c:330:6:UB_CS43L22_SetVolumeMP3	0	static
+stm32_ub_cs43l22_mp3_fatfs.c:342:11:UB_CS43L22_GetMP3Err	0	static
+stm32_ub_cs43l22_mp3_fatfs.c:356:6:P_CS43L22_InitMP3	16	static
+stm32_ub_cs43l22_mp3_fatfs.c:375:6:PlayMP3WithCallback	24	static
+stm32_ub_cs43l22_mp3_fatfs.c:504:6:SetMP3Buffer	32	static
+stm32_ub_cs43l22_mp3_fatfs.c:515:9:TryMP3Buffer	32	static
+stm32_ub_cs43l22_mp3_fatfs.c:539:6:StartMP3Buffer	24	static
+stm32_ub_cs43l22_mp3_fatfs.c:556:6:EVAL_AUDIO_TransferComplete_CallBack	24	static
